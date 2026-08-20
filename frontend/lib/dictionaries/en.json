@@ -1,0 +1,47 @@
+{
+  "navigation": {
+    "home": "Home",
+    "politicians": "Politicians",
+    "analytics": "Analytics",
+    "search": "Search"
+  },
+  "home": {
+    "title": "Karnataka Politicians Tracker",
+    "subtitle": "Comprehensive data on politicians, constituencies, and financial declarations in Karnataka.",
+    "searchPlaceholder": "Search for politicians...",
+    "popular": "Popular Profiles",
+    "viewAll": "View All Politicians"
+  },
+  "politician": {
+    "profile": "Profile",
+    "financial": "Financial Declarations",
+    "legal": "Legal Records",
+    "public": "Public Records",
+    "age": "Age",
+    "party": "Party",
+    "constituency": "Constituency",
+    "termsWon": "Terms Won",
+    "netWorth": "Net Worth"
+  },
+  "analytics": {
+    "title": "Karnataka MLA Analytics & Data Insights",
+    "subtitle": "Interactive insights on net worth rankings, party seat distribution, education levels, and age demographics across all 224 Karnataka MLAs.",
+    "summaryAssets": "Combined Assembly Wealth",
+    "summaryLiabilities": "Total Assembly Liabilities",
+    "summaryAge": "Average MLA Age",
+    "summaryLegal": "Total IPC Legal Disclosures",
+    "leaderboardTitle": "Net Worth Leaderboard",
+    "topRichest": "Top 10 Richest MLAs",
+    "topIndebted": "Top 10 Most Indebted MLAs",
+    "partyDistributionTitle": "Assembly Party Seat Distribution",
+    "partySubtitle": "Breakdown of 224 elected seats across major political parties",
+    "demographicsTitle": "Age & Demographics Breakdown",
+    "educationTitle": "Educational Background Distribution",
+    "seats": "Seats",
+    "rank": "Rank"
+  },
+  "footer": {
+    "about": "An open-source public tracker for Karnataka politicians.",
+    "disclaimer": "Disclaimer: All information displayed on this platform is aggregated directly from sworn candidate affidavits filed with the Election Commission of India (ECI) and official government disclosures. Source links are provided for independent verification."
+  }
+}

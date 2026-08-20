@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Check</title>
+    <style>
+        body { font-family: monospace; padding: 40px; background: #f5f5f5; }
+        .status { display: inline-block; padding: 10px 20px; background: #4CAF50; color: white; border-radius: 5px; margin-bottom: 20px; }
+        .error { background: #f44336 !important; }
+        pre { background: white; padding: 20px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>Health Check</h1>
+    {% if status == 'ok' %}
+        <div class="status">✓ System Healthy</div>
+    {% else %}
+        <div class="status error">✗ System Unhealthy</div>
+    {% endif %}
+    
+    <h2>System Info</h2>
+    <pre>{{ system_info }}</pre>
+    
+    <h2>Database Status</h2>
+    <pre>{{ db_status }}</pre>
+    
+    <h2>Cache Status</h2>
+    <pre>{{ cache_status }}</pre>
+</body>
+</html>

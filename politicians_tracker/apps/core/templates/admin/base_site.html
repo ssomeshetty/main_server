@@ -1,0 +1,14 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | Karnataka Politicians Tracker Admin{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Karnataka Politicians Tracker Admin</a></h1>
+{% endblock %}
+
+{% block nav-global %}
+<div style="color: #fff; font-size: 13px;">
+    <a href="/api/v1/" style="color: #ccc; margin-right: 15px;">API Documentation</a>
+    <a href="/" style="color: #ccc;">Public Website</a>
+</div>
+{% endblock %}

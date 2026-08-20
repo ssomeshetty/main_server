@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.env
+venv/
+ENV/
+.env.local
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.sql
+*.sqlite3
+*.sqlite
+
+# Media files (upload directory)
+media/
+*.upload
+
+# Test coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Node modules (if using webpack for static files)
+node_modules/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Logs
+logs/
+*.log
+
+# Migration files (uncomment if you don't want to track migrations)
+# */migrations/*.py
+# */migrations/*.pyc
+
+# Secrets and credentials
+credentials.json
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db

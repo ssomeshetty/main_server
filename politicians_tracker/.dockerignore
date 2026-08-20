@@ -1,0 +1,54 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env
+.env.local
+.env.*.local
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+
+# Development files
+scratch/
+*.log
+logs/
+db.sqlite3
+db.sqlite3-journal
+
+# Test artifacts
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (not needed in Docker image)
+*.md
+!README.md
+LICENSE
+
+# Docker compose files (not needed inside the image)
+docker-compose*.yml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

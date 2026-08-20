@@ -1,0 +1,43 @@
+# Django Framework
+Django==4.2.7
+djangorestframework==3.14.0
+django-filter==23.3
+
+# Database
+# MySQL client (use mariadbclient or mysqlclient)
+mysqlclient==2.2.0
+
+# Caching
+redis==5.0.0
+django-redis>=5.4.0
+
+# Template processing (for documentation)
+drf-yasg==1.21.5  # Optional: for Swagger UI documentation
+
+# Utilities
+python-dotenv==1.0.0  # For environment variables
+
+# Production server
+gunicorn>=22.0.0
+
+# Static file serving (production)
+whitenoise>=6.5.0
+
+# Data visualization (for chart endpoints)
+matplotlib>=3.8.0
+seaborn>=0.13.0
+pandas>=2.0.0
+
+# Testing
+coverage==7.3.2  # For test coverage
+factory-boy==3.2.3  # For test data factories
+
+# Security
+django-cors-headers==4.3.0  # For CORS support
+
+# Utility
+Pillow==10.1.0  # For image processing (if photo uploads needed)
+
+# Monitoring (uncomment for production)
+# sentry-sdk>=1.40.0  # Error tracking
+# django-silk>=5.0.0  # Query profiling (dev only)

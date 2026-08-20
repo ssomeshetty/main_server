@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.env
+.env.*
+ENV/
+
+# Django / Flask / general app data
+db.sqlite3
+*.sqlite3
+*.sqlite3-journal
+logs/
+*.log
+media/
+staticfiles/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+node_modules/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local scratch / generated outputs
+scratch/
+test_out*.txt
+test_redirect.py

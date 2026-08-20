@@ -1,0 +1,106 @@
+version: '3.8'
+
+services:
+  # MySQL Database
+  mysql:
+    image: mysql:8.0
+    container_name: politicians_tracker_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: politicians_tracker
+      MYSQL_USER: politicians_user
+      MYSQL_PASSWORD: politicians_password
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql-init:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: politicians_tracker_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      timeout: 5s
+      retries: 5
+
+  # Django Application
+  django:
+    build: .
+    container_name: politicians_tracker_django
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:-change-me-in-production}
+      DJANGO_DEBUG: ${DJANGO_DEBUG:-False}
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-politicians_tracker}
+      MYSQL_USER: ${MYSQL_USER:-politicians_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-politicians_password}
+      MYSQL_HOST: mysql
+      MYSQL_PORT: 3306
+      REDIS_URL: redis://redis:6379/1
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./politicians_tracker:/app/politicians_tracker
+      - static_volume:/app/staticfiles
+      - media_volume:/app/media
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
+
+  # Gunicorn Production Server (optional)
+  gunicorn:
+    build: .
+    container_name: politicians_tracker_gunicorn
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:-change-me-in-production}
+      DJANGO_DEBUG: "False"
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1,your-domain.com}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-politicians_tracker}
+      MYSQL_USER: ${MYSQL_USER:-politicians_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-politicians_password}
+      MYSQL_HOST: mysql
+      MYSQL_PORT: 3306
+      REDIS_URL: redis://redis:6379/1
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./politicians_tracker:/app/politicians_tracker
+      - static_volume:/app/staticfiles
+    command: >
+      sh -c "gunicorn politicians_tracker.wsgi:application
+             --bind 0.0.0.0:8000
+             --workers 4
+             --threads 2
+             --access-logfile -
+             --error-logfile -"
+
+volumes:
+  mysql_data:
+  redis_data:
+  static_volume:
+  media_volume:

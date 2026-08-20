@@ -1,0 +1,163 @@
+version: '3.8'
+
+services:
+  # MySQL Database (Production)
+  mysql:
+    image: mysql:8.0
+    container_name: politicians_tracker_mysql_prod
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql-init:/docker-entrypoint-initdb.d
+    # Do NOT expose ports in production (only internal network)
+    command: >
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_unicode_ci
+      --max-connections=500
+      --innodb-buffer-pool-size=1G
+      --innodb-log-file-size=256M
+      --slow-query-log=1
+      --long-query-time=1
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
+    networks:
+      - backend
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '2'
+
+  # Redis Cache (Production) with persistence and auth
+  redis:
+    image: redis:7-alpine
+    container_name: politicians_tracker_redis_prod
+    restart: unless-stopped
+    command: >
+      redis-server
+      --appendonly yes
+      --maxmemory 512mb
+      --maxmemory-policy allkeys-lru
+      --tcp-keepalive 60
+      --requirepass ${REDIS_PASSWORD:-changeme}
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD:-changeme}", "ping"]
+      timeout: 5s
+      retries: 5
+    networks:
+      - backend
+    deploy:
+      resources:
+        limits:
+          memory: 768M
+          cpus: '1'
+
+  # Django Application (Production with optimized Gunicorn)
+  django:
+    build: .
+    container_name: politicians_tracker_django_prod
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}
+      DJANGO_DEBUG: "False"
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS}
+      USE_SQLITE: "false"
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_HOST: mysql
+      MYSQL_PORT: 3306
+      REDIS_URL: redis://redis:6379/1
+      REDIS_PASSWORD: ${REDIS_PASSWORD:-changeme}
+      ADMIN_URL_PREFIX: ${ADMIN_URL_PREFIX:-mgmt-admin}
+      CACHE_BUST_TOKEN: ${CACHE_BUST_TOKEN:-}
+    volumes:
+      - static_volume:/app/staticfiles
+      - log_volume:/app/logs
+    # Gunicorn tuned for high throughput:
+    #   workers = (2 * CPU_CORES) + 1
+    #   gthread = threaded workers for I/O-bound Django
+    #   keep-alive = 75s (match Nginx upstream keepalive)
+    command: >
+      sh -c "python manage.py collectstatic --noinput &&
+             gunicorn politicians_tracker.wsgi:application
+             --bind 0.0.0.0:8000
+             --workers ${GUNICORN_WORKERS:-9}
+             --worker-class gthread
+             --threads 4
+             --max-requests 10000
+             --max-requests-jitter 1000
+             --timeout 30
+             --keep-alive 75
+             --access-logfile -
+             --error-logfile -
+             --log-level warning"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - backend
+      - frontend
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '4'
+
+  # Nginx Reverse Proxy
+  nginx:
+    image: nginx:1.25-alpine
+    container_name: politicians_tracker_nginx_prod
+    restart: unless-stopped
+    depends_on:
+      - django
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - static_volume:/app/staticfiles:ro
+      # Uncomment for SSL certificates:
+      # - ./ssl/cert.pem:/etc/nginx/ssl/cert.pem:ro
+      # - ./ssl/key.pem:/etc/nginx/ssl/key.pem:ro
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost/api/v1/health/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    networks:
+      - frontend
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+          cpus: '1'
+
+networks:
+  backend:
+    driver: bridge
+    internal: true  # No external access — MySQL/Redis isolated
+  frontend:
+    driver: bridge
+
+volumes:
+  mysql_data:
+  redis_data:
+  static_volume:
+  log_volume:

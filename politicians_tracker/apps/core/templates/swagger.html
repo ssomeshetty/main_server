@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karnataka Politicians Tracker API</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 20px; text-align: center; border-radius: 0 0 20px 20px; margin-bottom: 30px; }
+        h1 { font-size: 2em; margin-bottom: 10px; }
+        .subtitle { opacity: 0.9; }
+        .card { background: white; border-radius: 15px; padding: 30px; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        h2 { color: #333; margin-bottom: 15px; border-bottom: 2px solid #667eea; padding-bottom: 10px; }
+        .endpoint { padding: 15px; margin: 10px 0; border-left: 4px solid #667eea; background: #f9f9f9; border-radius: 0 8px 8px 0; }
+        .method { display: inline-block; padding: 3px 10px; border-radius: 4px; font-weight: bold; color: white; margin-right: 10px; }
+        .GET { background: #4CAF50; }
+        .POST { background: #f44336; }
+        .PUT { background: #FF9800; }
+        .DELETE { background: #9C27B0; }
+        pre { background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 8px; overflow-x: auto; margin: 10px 0; }
+        code { font-family: 'Courier New', monospace; }
+        .endpoint-url { color: #667eea; font-weight: bold; }
+        footer { text-align: center; padding: 40px 20px; background: #fff; border-top: 1px solid #eee; color: #666; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Karnataka Politicians Tracker API</h1>
+            <p class="subtitle">v1.0.0 - Bilingual (English/Kannada) Public Tracker</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="card">
+            <h2>Overview</h2>
+            <p>This API provides access to comprehensive data about Karnataka politicians including:</p>
+            <ul>
+                <li>Politician profiles with bilingual content</li>
+                <li>Financial declarations (assets and liabilities)</li>
+                <li>Legal records (criminal cases)</li>
+                <li>Public records (speeches, controversies)</li>
+                <li>Constituency and district information</li>
+            </ul>
+            <p><strong>Note:</strong> This API is read-only. All write operations return 405 Method Not Allowed.</p>
+        </div>
+        
+        <div class="card">
+            <h2>Available Endpoints</h2>
+            
+            <div class="endpoint">
+                <span class="method GET">GET</span>
+                <span class="endpoint-url">/api/v1/districts/</span>
+                <p>Lists all districts with optional filtering</p>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method GET">GET</span>
+                <span class="endpoint-url">/api/v1/constituencies/</span>
+                <p>Lists all constituencies with optional filtering</p>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method GET">GET</span>
+                <span class="endpoint-url">/api/v1/politicians/</span>
+                <p>Lists all politicians with search and filtering</p>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method GET">GET</span>
+                <span class="endpoint-url">/api/v1/politicians/{id}/</span>
+                <p>Get detailed politician profile</p>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method GET">GET</span>
+                <span class="endpoint-url">/api/v1/financial-declarations/</span>
+                <p>Lists all financial declarations</p>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method GET">GET</span>
+                <span class="endpoint-url">/api/v1/legal-records/</span>
+                <p>Lists all legal records with filtering</p>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method GET">GET</span>
+                <span class="endpoint-url">/api/v1/public-records/</span>
+                <p>Lists all public records (speeches, etc.)</p>
+            </div>
+            
+            <div class="endpoint">
+                <span class="method GET">GET</span>
+                <span class="endpoint-url">/api/v1/constituency-funds/</span>
+                <p>Lists all constituency fund allocations</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Language Support</h2>
+            <p>All text fields support bilingual content. Use the <code>lang</code> parameter to get Kannada content:</p>
+            <pre><code>?lang=kn  # For Kannada content
+?lang=en  # For English content (default)</code></pre>
+            <p>Example:</p>
+            <pre><code>GET /api/v1/politicians/?lang=kn</code></pre>
+        </div>
+        
+        <div class="card">
+            <h2>Pagination</h2>
+            <p>All list endpoints use cursor-based pagination for optimal performance:</p>
+            <pre><code>GET /api/v1/politicians/?page_size=20
+GET /api/v1/politicians/?page_size=50&amp;cursor=cursor_value</code></pre>
+        </div>
+        
+        <div class="card">
+            <h2>Filtering and Search</h2>
+            <pre><code># Filter by district
+GET /api/v1/politicians/?district=1
+
+# Search by name
+GET /api/v1/politicians/?search=john
+
+# Filter by constituency type
+GET /api/v1/constituencies/?constituency_type=general
+
+# Filter by financial year
+GET /api/v1/constituency-funds/?financial_year=2024-25</code></pre>
+        </div>
+        
+        <div class="card">
+            <h2>Authentication</h2>
+            <p>This API is read-only and does not require authentication for public data access.</p>
+            <p><strong>Warning:</strong> Any POST, PUT, PATCH, or DELETE request will return 405 Method Not Allowed.</p>
+        </div>
+        
+        <div class="card">
+            <h2>Rate Limiting</h2>
+            <p>The API is configured with read-only middleware. For production deployment, consider adding rate limiting:</p>
+            <pre><code># Example rate limit configuration
+DEFAULT_THROTTLE_RATES = {
+    'anon': '1000/minute',  # 1000 requests per minute
+}</code></pre>
+        </div>
+        
+        <div class="card">
+            <h2>Examples</h2>
+            
+            <h3>Get politician by name</h3>
+            <pre><code>curl "http://localhost:8000/api/v1/politicians/?search=rahul" -H "Accept-Language: kn"</code></pre>
+            
+            <h3>Get financial declarations for a politician</h3>
+            <pre><code>curl "http://localhost:8000/api/v1/financial-declarations/?politician=1"</code></pre>
+            
+            <h3>Get constituencies in a district</h3>
+            <pre><code>curl "http://localhost:8000/api/v1/constituencies/?district=1"</code></pre>
+            
+            <h3>Get recent public records</h3>
+            <pre><code>curl "http://localhost:8000/api/v1/public-records/?record_type=speech"</code></pre>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2026 Karnataka Politicians Tracker. <a href="https://github.com/yourusername/karnataka-politicians-tracker" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>
