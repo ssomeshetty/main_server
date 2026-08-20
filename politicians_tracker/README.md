@@ -47,6 +47,27 @@ politicians_tracker/
 
 ## Installation
 
+## Database backup included
+
+This repository includes the full current database data in two formats:
+
+- [data/db_dump.sql.xz](../data/db_dump.sql.xz) — complete SQL dump of the database
+- [data/raw-db/](../data/raw-db/) — exact raw SQLite database split into parts
+
+### Restore the exact raw SQLite database
+
+```bash
+cat data/raw-db/db.sqlite3.part-* > db.sqlite3
+```
+
+### Restore from the SQL dump
+
+```bash
+xzcat data/db_dump.sql.xz | sqlite3 db.sqlite3
+```
+
+The raw split parts preserve the full database contents exactly. The SQL dump is also complete and can be used to recreate the same data.
+
 ### Prerequisites
 
 - Python 3.10+
