@@ -1,0 +1,2585 @@
+{
+  "counts": {
+    "politician_total": 257,
+    "ministers": 34,
+    "mlas": 225,
+    "mp_ls": 28,
+    "mp_rs": 4,
+    "election_results": 254,
+    "financial_declarations": 258,
+    "legal_records": 400,
+    "public_records": 1840
+  },
+  "politicians": [
+    {
+      "id": 132,
+      "full_name_en": "A. C. Srinivasa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 170,
+      "full_name_en": "A. Manju",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 194,
+      "full_name_en": "A. R. Krishnamurthy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 181,
+      "full_name_en": "A. S. Ponnanna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 72,
+      "full_name_en": "Abbayya Prasad",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 12,
+      "full_name_en": "Abhay Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 35,
+      "full_name_en": "Ajay Singh",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 44,
+      "full_name_en": "Allamprabhu Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 185,
+      "full_name_en": "Anil Chikkamadhu",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 81,
+      "full_name_en": "Arabil Shivaram Hebbar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 104,
+      "full_name_en": "Araga Jnanendra",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 74,
+      "full_name_en": "Aravind Bellad",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 178,
+      "full_name_en": "Ashok Kumar Rai",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 33,
+      "full_name_en": "Ashok M. Managuli",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 18,
+      "full_name_en": "Ashok Pattan",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 11,
+      "full_name_en": "Asif Sait",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 42,
+      "full_name_en": "Avinash Jadhav",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 201,
+      "full_name_en": "B. Devendrappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 200,
+      "full_name_en": "B. G. Govindappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 206,
+      "full_name_en": "B. K. Sangameshwara",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 92,
+      "full_name_en": "B. M. Nagaraja",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 115,
+      "full_name_en": "B. N. Ravi Kumar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 93,
+      "full_name_en": "B. Nagendra",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 99,
+      "full_name_en": "B. P. Harish",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 46,
+      "full_name_en": "B. R. Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 149,
+      "full_name_en": "B. Shivanna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 112,
+      "full_name_en": "B. Suresh Gowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 238,
+      "full_name_en": "B. Y. Raghavendra",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 105,
+      "full_name_en": "B. Y. Vijayendra",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 141,
+      "full_name_en": "B. Z. Zameer Ahmed Khan",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 15,
+      "full_name_en": "Babasaheb Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 8,
+      "full_name_en": "Balachandra Jarkiholi",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 53,
+      "full_name_en": "Basanagouda Daddal",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 59,
+      "full_name_en": "Basanagouda Turvihal",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 30,
+      "full_name_en": "Basangouda Patil Yatnal",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 83,
+      "full_name_en": "Basavaraj Bommai",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 63,
+      "full_name_en": "Basavaraj Rayareddy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 85,
+      "full_name_en": "Basavaraj Shivannanavar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 204,
+      "full_name_en": "Basavaraju V. Shivaganga",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 43,
+      "full_name_en": "Basawaraj Mattimud",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 208,
+      "full_name_en": "Belur Gopalkrishna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 179,
+      "full_name_en": "Bhageerathi Murulya",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 174,
+      "full_name_en": "Bharath Shetty Y",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 27,
+      "full_name_en": "Bhimanagouda Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 80,
+      "full_name_en": "Bhimanna T. Naik",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 23,
+      "full_name_en": "Bhimsen Chimmanakatti",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 131,
+      "full_name_en": "Byrathi Suresh",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 124,
+      "full_name_en": "Byrati Basavaraj",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 214,
+      "full_name_en": "C. B. Suresh Babu",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 68,
+      "full_name_en": "C. C. Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 146,
+      "full_name_en": "C. K. Ramamurthy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 130,
+      "full_name_en": "C. N. Ashwath Narayan",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 165,
+      "full_name_en": "C. N. Balakrishna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 195,
+      "full_name_en": "C. Puttarangashetty",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 26,
+      "full_name_en": "C. S. Nadagouda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 257,
+      "full_name_en": "C.P. Yogeshwara",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 241,
+      "full_name_en": "Captain Bricesh Chowta",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 171,
+      "full_name_en": "Cement Manju",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 65,
+      "full_name_en": "Chandru Lamani",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 38,
+      "full_name_en": "Channareddy Patil Tunnur",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 205,
+      "full_name_en": "D. G. Shanthana Gowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 183,
+      "full_name_en": "D. Ravishankar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 199,
+      "full_name_en": "D. Sudhakar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 175,
+      "full_name_en": "D. Vedavyas Kamath",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 156,
+      "full_name_en": "D.K. Shivakumar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 186,
+      "full_name_en": "Darshan Dhruvanarayana",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 160,
+      "full_name_en": "Darshan Puttannaiah",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 152,
+      "full_name_en": "Dheeraj Muniraj",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 78,
+      "full_name_en": "Dinakar Keshav Shetty",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 137,
+      "full_name_en": "Dinesh Gundu Rao",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 60,
+      "full_name_en": "Doddanagouda Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 246,
+      "full_name_en": "Dr. C. N. Manjunath",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 250,
+      "full_name_en": "Dr. K. Sudhakar",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 255,
+      "full_name_en": "Dr. Syed Naseer Hussain",
+      "representative_type": "mp_rs",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 256,
+      "full_name_en": "Dr. Yathindra Siddaramaiah",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 6,
+      "full_name_en": "Duryodhan Aihole",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 259,
+      "full_name_en": "E. Annapoorna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 95,
+      "full_name_en": "E. Tukaram",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 51,
+      "full_name_en": "Eshwara Khandre",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 111,
+      "full_name_en": "G. B. Jyothi Ganesh",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 184,
+      "full_name_en": "G. D. Harish Gowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 212,
+      "full_name_en": "G. H. Srinivasa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 55,
+      "full_name_en": "G. Hampayya Nayak",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 62,
+      "full_name_en": "G. Janardhana Reddy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 117,
+      "full_name_en": "G. K. Venkatashiva Reddy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 232,
+      "full_name_en": "G. Kumar Naik",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 218,
+      "full_name_en": "G. Parameshwara",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 187,
+      "full_name_en": "G. T. Devegowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 2,
+      "full_name_en": "Ganesh Hukkeri",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 242,
+      "full_name_en": "Govind Karjol",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 109,
+      "full_name_en": "Gurme Suresh Shetty",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 67,
+      "full_name_en": "Gurupadagouda Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 106,
+      "full_name_en": "Gururaj Gantihole",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 155,
+      "full_name_en": "H. A. Iqbal Hussain",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 154,
+      "full_name_en": "H. C. Balakrishna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 192,
+      "full_name_en": "H. C. Mahadevappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 254,
+      "full_name_en": "H. D. Deve Gowda",
+      "representative_type": "mp_rs",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 157,
+      "full_name_en": "H. D. Kumaraswamy",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 217,
+      "full_name_en": "H. D. Ranganath",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 169,
+      "full_name_en": "H. D. Revanna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 211,
+      "full_name_en": "H. D. Thammaiah",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 66,
+      "full_name_en": "H. K. Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 167,
+      "full_name_en": "H. K. Suresh",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 196,
+      "full_name_en": "H. M. Ganesh Prasad",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 90,
+      "full_name_en": "H. R. Gaviyappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 164,
+      "full_name_en": "H. T. Manju",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 221,
+      "full_name_en": "H. V. Venkatesh",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 24,
+      "full_name_en": "H. Y. Meti",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 58,
+      "full_name_en": "Hampanagouda Badarli",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 172,
+      "full_name_en": "Harish Poonja",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 91,
+      "full_name_en": "J. N. Ganesh",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 22,
+      "full_name_en": "J. T. Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 21,
+      "full_name_en": "Jagadish Gudagunti",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 228,
+      "full_name_en": "Jagadish Shettar",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 198,
+      "full_name_en": "K. C. Veerendra Puppy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 129,
+      "full_name_en": "K. Gopalaiah",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 151,
+      "full_name_en": "K. H. Muniyappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 223,
+      "full_name_en": "K. H. Puttaswamy Gowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 189,
+      "full_name_en": "K. Harish Gowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 133,
+      "full_name_en": "K. J. George",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 166,
+      "full_name_en": "K. M. Shivalinge Gowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 159,
+      "full_name_en": "K. M. Udaya",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 89,
+      "full_name_en": "K. Nemiraj Naik",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 234,
+      "full_name_en": "K. Rajashekar Basavaraj Hitnal",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 213,
+      "full_name_en": "K. S. Anand",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 203,
+      "full_name_en": "K. S. Basavanthappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 215,
+      "full_name_en": "K. Shadakshari",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 182,
+      "full_name_en": "K. Venkatesh",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 122,
+      "full_name_en": "K. Y. Nanjegowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 45,
+      "full_name_en": "Kaneez Fathima",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 56,
+      "full_name_en": "Karemma Nayak",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 107,
+      "full_name_en": "Kiran Kumar Kodgi",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 239,
+      "full_name_en": "Kota Srinivas Poojary",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 121,
+      "full_name_en": "Kothur G. Manjunath",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 125,
+      "full_name_en": "Krishna Byre Gowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 88,
+      "full_name_en": "Krishna Nayaka",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 222,
+      "full_name_en": "Kyathasandra N. Rajanna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 143,
+      "full_name_en": "L. A. Ravi Subramanya",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 13,
+      "full_name_en": "Lakshmi Hebbalkar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 202,
+      "full_name_en": "Latha Mallikarjun",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 3,
+      "full_name_en": "Laxman Savadi",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 29,
+      "full_name_en": "M. B. Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 116,
+      "full_name_en": "M. C. Sudhakar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 98,
+      "full_name_en": "M. Chandrappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 140,
+      "full_name_en": "M. Krishnappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 226,
+      "full_name_en": "M. Krishnappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 251,
+      "full_name_en": "M. Mallesh Babu",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 193,
+      "full_name_en": "M. R. Manjunath",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 70,
+      "full_name_en": "M. R. Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 119,
+      "full_name_en": "M. Roopakala",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 79,
+      "full_name_en": "M. S. Vaidya",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 148,
+      "full_name_en": "M. Satish Reddy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 216,
+      "full_name_en": "M. T. Krishnappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 34,
+      "full_name_en": "M. Y. Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 207,
+      "full_name_en": "Madhu Bangarappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 16,
+      "full_name_en": "Mahantesh Koujalagi",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 5,
+      "full_name_en": "Mahendra Tammannavar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 73,
+      "full_name_en": "Mahesh Tenginakai",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 253,
+      "full_name_en": "Mallikarjun Kharge",
+      "representative_type": "mp_rs",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 57,
+      "full_name_en": "Manappa D.Vajjal",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 147,
+      "full_name_en": "Manjula S",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 180,
+      "full_name_en": "Mantar Gowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 127,
+      "full_name_en": "Munirathna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 136,
+      "full_name_en": "N. A. Haris",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 163,
+      "full_name_en": "N. Chaluvaraya Swamy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 69,
+      "full_name_en": "N. H. Konaraddi",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 153,
+      "full_name_en": "N. Shreenivasaiah",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 96,
+      "full_name_en": "N. T. Srinivas",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 97,
+      "full_name_en": "N. Y. Gopalakrishna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 94,
+      "full_name_en": "Nara Bharath Reddy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 210,
+      "full_name_en": "Nayana Motamma",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 7,
+      "full_name_en": "Nikhil Umesh Katti",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 252,
+      "full_name_en": "Nirmala Sitharaman",
+      "representative_type": "mp_rs",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 229,
+      "full_name_en": "P. C. Gaddigoudar",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 248,
+      "full_name_en": "P. C. Mohan",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 158,
+      "full_name_en": "P. M. Narendraswamy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 237,
+      "full_name_en": "Prabha Mallikarjun",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 52,
+      "full_name_en": "Prabhu Chauhan",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 114,
+      "full_name_en": "Pradeep Eshwar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 87,
+      "full_name_en": "Prakash Koliwad",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 235,
+      "full_name_en": "Pralhad Joshi",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 139,
+      "full_name_en": "Priya Krishna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 40,
+      "full_name_en": "Priyank Kharge",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 227,
+      "full_name_en": "Priyanka Jarkiholi",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 144,
+      "full_name_en": "R. Ashoka",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 19,
+      "full_name_en": "R. B. Timmapur",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 76,
+      "full_name_en": "R. V. Deshpande",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 231,
+      "full_name_en": "Radhakrishna Doddamani",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 64,
+      "full_name_en": "Raghavendra Hitnal",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 50,
+      "full_name_en": "Rahim Khan",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 36,
+      "full_name_en": "Raja Venkatappa Naik",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 4,
+      "full_name_en": "Raju Kage",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 145,
+      "full_name_en": "Ramalinga Reddy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 9,
+      "full_name_en": "Ramesh Jarkiholi",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 230,
+      "full_name_en": "Ramesh Jigajinagi",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 162,
+      "full_name_en": "Ramesha Bandisiddegowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 161,
+      "full_name_en": "Ravikumar Gowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 135,
+      "full_name_en": "Rizwan Arshad",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 84,
+      "full_name_en": "Rudrappa Lamani",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 128,
+      "full_name_en": "S. Muniraju",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 103,
+      "full_name_en": "S. N. Channabasappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 120,
+      "full_name_en": "S. N. Narayanaswamy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 113,
+      "full_name_en": "S. N. Subbareddy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 219,
+      "full_name_en": "S. R. Srinivas",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 123,
+      "full_name_en": "S. R. Vishwanath",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 134,
+      "full_name_en": "S. Raghu",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 100,
+      "full_name_en": "S. S. Mallikarjun",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 54,
+      "full_name_en": "S. Shivaraj Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 138,
+      "full_name_en": "S. Suresh Kumar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 126,
+      "full_name_en": "S. T. Somashekhar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 233,
+      "full_name_en": "Sagar Khandre",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 118,
+      "full_name_en": "Samruddhi Manjunath",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 75,
+      "full_name_en": "Santosh Lad",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 10,
+      "full_name_en": "Satish Jarkiholi",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 77,
+      "full_name_en": "Satish Krishna Sail",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 49,
+      "full_name_en": "Shailendra Beldale",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 101,
+      "full_name_en": "Shamanuru Shivashankarappa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 102,
+      "full_name_en": "Sharada Puryanaik",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 41,
+      "full_name_en": "Sharan Prakash Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 37,
+      "full_name_en": "Sharanabasappa Darshanapur",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 39,
+      "full_name_en": "Sharanagouda Kandakur",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 47,
+      "full_name_en": "Sharanu Salagar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 150,
+      "full_name_en": "Sharath Kumar Bache Gowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 1,
+      "full_name_en": "Shashikala Jolle",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 28,
+      "full_name_en": "Shivanand Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 61,
+      "full_name_en": "Shivaraj Tangadagi",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 247,
+      "full_name_en": "Shobha Karandlaje",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 240,
+      "full_name_en": "Shreyas M. Patel",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 191,
+      "full_name_en": "Siddaramaiah",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 48,
+      "full_name_en": "Siddu Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 20,
+      "full_name_en": "Siddu Savadi",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 82,
+      "full_name_en": "Srinivas Mane",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 245,
+      "full_name_en": "Sunil Bose",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 168,
+      "full_name_en": "Swaroop Prakash",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 220,
+      "full_name_en": "T. B. Jayachandra",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 209,
+      "full_name_en": "T. D. Rajegowda",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 197,
+      "full_name_en": "T. Raghumurthy",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 188,
+      "full_name_en": "T. S. Srivatsa",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 190,
+      "full_name_en": "Tanveer Sait",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 249,
+      "full_name_en": "Tejasvi Surya",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 177,
+      "full_name_en": "U Rajesh Naik",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 86,
+      "full_name_en": "U. B. Banakar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 176,
+      "full_name_en": "U. T. Khader",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 142,
+      "full_name_en": "Uday Garudachar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 173,
+      "full_name_en": "Umanatha Kotian",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 243,
+      "full_name_en": "V. Somanna",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 110,
+      "full_name_en": "V. Sunil Kumar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 25,
+      "full_name_en": "Vijayanand Kashappanavar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 71,
+      "full_name_en": "Vinay Kulkarni",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 236,
+      "full_name_en": "Vishveshwar Hegde Kageri",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 17,
+      "full_name_en": "Vishwas Vaidya",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 14,
+      "full_name_en": "Vithal Somanna Halagekar",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 31,
+      "full_name_en": "Vittal Katakadhond",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 244,
+      "full_name_en": "Yaduveer Krishnadatta Chamaraja Wadiyar",
+      "representative_type": "mp_ls",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 32,
+      "full_name_en": "Yashavanta Patil",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 108,
+      "full_name_en": "Yashpal Anand Suvarna",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    },
+    {
+      "id": 258,
+      "full_name_en": "Yasir Ahmed Khan Pathan",
+      "representative_type": "mla",
+      "party": null,
+      "website_url": "",
+      "is_wikipedia": false,
+      "is_sansad": false,
+      "is_synthetic": false
+    }
+  ]
+}

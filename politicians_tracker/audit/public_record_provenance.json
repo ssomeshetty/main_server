@@ -1,0 +1,452 @@
+[
+  {
+    "record_id": 1149,
+    "url": "https://www.awazthevoice.in/india-news/karnataka-govt-to-study-demand-for-rss-registration-hk-patil-60991.html",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.awazthevoice.in",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 999,
+    "url": "https://www.thehindu.com/news/national/karnataka/karnataka-cm-to-launch-development-works-worth-114676-crore-in-maddur-taluk-on-july-28/article69858329.ece",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.thehindu.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 347,
+    "url": "https://www.deccanherald.com/india/karnataka/karnataka-cabinet-expansion-likely-next-week-4073848",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.deccanherald.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1169,
+    "url": "https://www.deccanherald.com/india/karnataka/h-d-kumaraswamy-to-visit-protesting-farmers-in-bidadi-on-july-16-offers-legal-aid-4073731",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.deccanherald.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1805,
+    "url": "https://organiser.org/2025/12/06/329043/bharat/karnataka-jds-mla-ht-manju-levels-major-corruption-charge-against-ksdl-over-sandalwood-oil-procurement/",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "organiser.org",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1652,
+    "url": "https://organiser.org/2026/03/30/346292/bharat/karnataka-lokayukta-confirms-corruption-in-rajiv-gandhi-housing-scheme-vindicates-allegations-made-by-br-patil/",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "organiser.org",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1185,
+    "url": "https://www.news18.com/india/karnataka-leadership-change-buzz-hc-balakrishna-siddaramaiah-dk-shivakumar-congress-cm-row-rotation-formula-ws-l-10115277.html",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.news18.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1119,
+    "url": "https://organiser.org/2025/12/06/329043/bharat/karnataka-jds-mla-ht-manju-levels-major-corruption-charge-against-ksdl-over-sandalwood-oil-procurement/",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "organiser.org",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 945,
+    "url": "https://organiser.org/2026/01/20/335926/bharat/karnataka-sand-mafia-threatens-jds-mla-karemma-nayak-alleges-intimidation-over-illegal-mining-crackdown/",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "organiser.org",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1311,
+    "url": "https://organiser.org/2026/06/30/360369/bharat/karnataka-bengaluru-court-issues-summons-to-priyank-kharge-mohammed-nalapad-in-rss-defamation-case/",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "organiser.org",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 509,
+    "url": "https://organiser.org/2026/02/17/340423/bharat/karnataka-high-court-sets-aside-congress-mla-subba-reddys-election-cites-non-disclosure-of-assets/",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "organiser.org",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1724,
+    "url": "https://www.thehindu.com/news/national/karnataka/umesh-jadhav-wants-ticket-for-son-not-brother/article26968261.ece",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.thehindu.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1702,
+    "url": "https://udayavani.com/karnataka/shivamogga-bk-sangameshwar-bhadravathi-mla-retires-politics-324903?lang=en",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "udayavani.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1627,
+    "url": "https://www.aninews.in/news/national/general-news/has-no-concern-for-farmers-karnataka-bjp-chief-targets-cm-dk-shivakumar-over-bidadi-township-project20260714210219",
+    "http_status": 403,
+    "accessible": false,
+    "verification_status": "HTTP_ERROR",
+    "domain": "www.aninews.in",
+    "claim_supported": "UNAVAILABLE"
+  },
+  {
+    "record_id": 1621,
+    "url": "https://www.deccanchronicle.com/southern-states/karnataka/vijayendra-demands-rs-50-thousand-per-acre-compensation-for-farmers-affected-by-severe-drought-1970708",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.deccanchronicle.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1618,
+    "url": "https://www.thehindu.com/news/national/karnataka/karnataka-governor-seeks-authenticated-english-translations-in-zameer-prosecution-file/article71222214.ece",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.thehindu.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1617,
+    "url": "https://timesofindia.indiatimes.com/city/bengaluru/karnataka-guv-thaawar-chand-gehlot-seeks-english-translation-of-sanction-for-prosecution-against-zameer-from-lokayukta/articleshow/132395957.cms",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "timesofindia.indiatimes.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1598,
+    "url": "https://www.thehindu.com/news/national/karnataka/divide-belagavi-district-for-administrative-convenience-says-balachandra-jarkiholi/article70342112.ece",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.thehindu.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1596,
+    "url": "https://www.hindustantimes.com/india-news/brothers-ramesh-and-balachandra-jarkiholi-win-karnataka-assembly-polls-on-bjp-tickets-while-satish-jarkiholi-wins-for-congress-101683977392410.html",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.hindustantimes.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1577,
+    "url": "https://www.hindustantimes.com/cities/bengaluru-news/karnataka-mlas-son-booked-for-taking-out-march-with-hunted-wild-rabbits-101743560903335.html",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.hindustantimes.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1523,
+    "url": "https://www.thehindu.com/news/national/karnataka/over-30-congress-legislators-leave-for-delhi-to-seek-cabinet-reshuffle-to-accommodate-them/article70854442.ece",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.thehindu.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1489,
+    "url": "https://indianexpress.com/article/cities/bangalore/bmtc-suspends-driver-conductor-byrathi-suresh-bus-change-row-10785333/",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "indianexpress.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1430,
+    "url": "https://www.thehindu.com/news/national/karnataka/super-speciality-hospital-in-hassan-will-be-ready-in-eight-months-karnataka-revenue-minister/article70019682.ece",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.thehindu.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1416,
+    "url": "https://www.thehindu.com/news/national/karnataka/nadagouda-assumes-charge-as-karnatakas-special-representative/article6134235.ece",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.thehindu.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1395,
+    "url": "https://www.hindustantimes.com/india-news/karnataka-bjp-mla-chandru-lamani-caught-accepting-rs-5-lakh-bribe-siddharamaiah-dk-shivakumar-take-very-honest-jibe-101771725218984.html",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.hindustantimes.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1388,
+    "url": "https://www.thehindu.com/news/national/karnataka/mla-channareddy-patil-tunnur-directs-officers-to-conduct-proper-assessment-on-crop-loss-and-release-compensation-for-farmers/article70368759.ece",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.thehindu.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1297,
+    "url": "https://udayavani.com/politics-karnataka-bjp-duryodhan-aihole-bypolls-chikkodi-development-works-094180?lang=en",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "udayavani.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1296,
+    "url": "https://udayavani.com/karnataka/politics-karnataka-bjp-duryodhan-aihole-bypolls-chikkodi-development-works-094180?lang=en",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "udayavani.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1266,
+    "url": "https://udayavani.com/karnataka/hunsur-mla-gd-harish-gowda-assembly-tobacco-farmers-price-crash-protest-karnataka-182241?lang=en",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "udayavani.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1228,
+    "url": "https://www.aninews.in/news/national/politics/jds-bjp-politicising-issue-karnataka-cm-shivakumar-on-bidadi-township-issue20260714142301",
+    "http_status": 403,
+    "accessible": false,
+    "verification_status": "HTTP_ERROR",
+    "domain": "www.aninews.in",
+    "claim_supported": "UNAVAILABLE"
+  },
+  {
+    "record_id": 1226,
+    "url": "https://udayavani.com/karnataka/bharat-jodo-yuva-sangha-to-come-up-in-ktaka-within-a-month-dcm-parameshwara-604859?lang=en",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "udayavani.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1167,
+    "url": "https://thefederal.com/category/states/south/karnataka/bidadi-land-row-hd-kumaraswamy-backs-protesting-farmers-promises-legal-aid-250153",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "thefederal.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1165,
+    "url": "https://www.aninews.in/news/national/politics/jds-bjp-politicising-issue-karnataka-cm-shivakumar-on-bidadi-township-issue20260714142301",
+    "http_status": 403,
+    "accessible": false,
+    "verification_status": "HTTP_ERROR",
+    "domain": "www.aninews.in",
+    "claim_supported": "UNAVAILABLE"
+  },
+  {
+    "record_id": 1832,
+    "url": "https://timesofindia.indiatimes.com/city/bengaluru/sc-questions-karnataka-hc-order-discharging-hd-revanna-in-outraging-womans-modesty-case/articleshow/132375990.cms",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "timesofindia.indiatimes.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1150,
+    "url": "https://udayavani.com/karnataka/sir-row-hk-patil-counters-bommai-says-three-entries-belong-to-different-people-252548?lang=en",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "udayavani.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1113,
+    "url": "https://udayavani.com/karnataka/i-am-also-an-aspirant-for-a-ministerial-berth-pavagada-mla-hv-venkatesh-365412?lang=en",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "udayavani.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1016,
+    "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fminister-directs-officials-to-speed-up-ropeway-projects-4072677",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.deccanherald.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1012,
+    "url": "https://www.newindianexpress.com/amp/story/states/karnataka/2026/Jul/14/rahul-gandhi-likely-to-summon-cm-shivakumar-state-netas-to-delhi",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.newindianexpress.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 975,
+    "url": "https://www.hindustantimes.com/india-news/karnataka-congress-mlas-visits-delhi-push-for-cabinet-reshuffle-101776058860777.html",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.hindustantimes.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 961,
+    "url": "https://udayavani.com/karnataka/k-venkatesh-allocated-planning-statistics-portfolios-siddaramaiah-d-sudhakar-830069?lang=en",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "udayavani.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 915,
+    "url": "https://www.hindustantimes.com/india-news/who-is-kn-rajanna-karnataka-minister-resigns-over-remarks-on-vote-theft-row-101754918986512.html",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.hindustantimes.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 774,
+    "url": "https://www.hindustantimes.com/india-news/truth-must-come-out-at-temple-karnataka-bjp-plans-meeting-over-mlc-election-crossvoting-101782089404850.html",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.hindustantimes.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 630,
+    "url": "https://timesofindia.indiatimes.com/city/bengaluru/ramachandra-gowda-who-helped-build-bjp-in-karnataka-dies-at-88/articleshow/132397895.cms",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "timesofindia.indiatimes.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 628,
+    "url": "https://thenewsmill.com/2026/07/former-karnataka-minister-ramachandra-gowda-dies-at-88/",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "thenewsmill.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 1814,
+    "url": "https://www.news18.com/videos/breaking-news/karnataka-bjp-mla-sr-vishwanath-faces-row-after-attending-rowdy-sheeter-birthday-event-news18-10209705.html",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.news18.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 451,
+    "url": "https://www.aninews.in/news/national/politics/karnataka-cabinet-expansion-likely-soon-belagavi-deserves-more-representation-satish-jarkiholi20260714094418",
+    "http_status": 403,
+    "accessible": false,
+    "verification_status": "HTTP_ERROR",
+    "domain": "www.aninews.in",
+    "claim_supported": "UNAVAILABLE"
+  },
+  {
+    "record_id": 450,
+    "url": "https://english.publictv.in/karnataka-cabinet-expansion-likely-soon-belagavi-deserves-more-representation-satish-jarkiholi/",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "english.publictv.in",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 448,
+    "url": "https://thenewsmill.com/2026/07/karnataka-cabinet-expansion-expected-soon-belagavi-seeks-greater-representation-says-satish-jarkiholi/",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "thenewsmill.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 24,
+    "url": "https://thenewsmill.com/2026/07/karnataka-cabinet-expansion-expected-soon-belagavi-seeks-greater-representation-says-satish-jarkiholi/",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "thenewsmill.com",
+    "claim_supported": "CONTEXT_ONLY"
+  },
+  {
+    "record_id": 23,
+    "url": "https://www.deccanchronicle.com/southern-states/karnataka/cabinet-expansion-likely-soon-belagavi-deserves-more-representation-jarkiholi-1970752",
+    "http_status": 200,
+    "accessible": true,
+    "verification_status": "ACCESSIBLE_UNVERIFIED",
+    "domain": "www.deccanchronicle.com",
+    "claim_supported": "CONTEXT_ONLY"
+  }
+]

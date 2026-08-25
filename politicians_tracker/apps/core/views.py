@@ -1066,17 +1066,17 @@ class PoliticianByConstituencyViewSet(ReadOnlyViewSetMixin, viewsets.ReadOnlyMod
 
 
 # =============================================================================
-# Palantir Intelligence Data Engine Views
+# Political Analytics Engine Views
 # =============================================================================
 
 from rest_framework.views import APIView
 from rest_framework import status as drf_status
-from politicians_tracker.apps.core.intelligence_engine import PalantirIntelligenceEngine
+from politicians_tracker.apps.core.intelligence_engine import PoliticalAnalyticsEngine
 
 
 class PoliticianIntelligenceView(APIView):
     """
-    Palantir Intelligence Analytics Engine Endpoint for a specific politician.
+    Political Analytics Engine Endpoint for a specific politician.
     GET /api/v1/intelligence/politician/{slug}/
 
     Cached for 30 minutes (expensive multi-query aggregation).
@@ -1098,8 +1098,8 @@ class PoliticianIntelligenceView(APIView):
         except Politician.DoesNotExist:
             return Response({'error': 'Politician profile not found.'}, status=drf_status.HTTP_404_NOT_FOUND)
 
-        engine = PalantirIntelligenceEngine(pol)
-        report = engine.get_full_intelligence_report()
+        engine = PoliticalAnalyticsEngine(pol)
+        report = engine.get_full_report()
 
         # Cache for 30 minutes
         cache.set(cache_key, report, 1800)
@@ -1108,7 +1108,7 @@ class PoliticianIntelligenceView(APIView):
 
 class NetworkGraphView(APIView):
     """
-    Knowledge Graph Topology Endpoint.
+    Entity Network Topology Endpoint.
     GET /api/v1/intelligence/network-graph/?slug={slug}
 
     Cached for 30 minutes.
@@ -1133,8 +1133,12 @@ class NetworkGraphView(APIView):
         if cached is not None:
             return Response(cached, status=drf_status.HTTP_200_OK)
 
-        engine = PalantirIntelligenceEngine(pol)
-        graph = engine.generate_knowledge_graph()
+        engine = PoliticalAnalyticsEngine(pol)
+        # Note: In the future, we may want to pass financial data to generate_entity_network,
+        # but for this specific endpoint we probably just want the graph directly.
+        # Generating it here by calling get_full_report to get the financial part.
+        report = engine.get_full_report()
+        graph = report['entity_network']
 
         cache.set(cache_key, graph, 1800)
         return Response(graph, status=drf_status.HTTP_200_OK)

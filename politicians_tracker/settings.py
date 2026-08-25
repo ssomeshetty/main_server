@@ -341,9 +341,9 @@ REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         'anon': '60/minute',           # Global fallback: 60 req/min per IP
         'burst_anon': '100/minute',    # Burst limit
-        'analytics': '10/minute',      # Analytics is expensive — strict limit
-        'list': '60/minute',           # List endpoints
-        'detail': '120/minute',        # Detail endpoints (lighter)
+        'analytics': '1000/minute',    # Increased for Next.js SSG build
+        'list': '1000/minute',         # Increased for Next.js SSG build
+        'detail': '2000/minute',       # Increased for Next.js SSG build
         'search': '30/minute',         # Search is DB-heavy
     },
     

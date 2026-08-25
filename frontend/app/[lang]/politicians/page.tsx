@@ -34,7 +34,7 @@ export async function generateMetadata({
 
   const description = isKn
     ? `ಕರ್ನಾಟಕ ಶಾಸಕರು ಮತ್ತು ಸಂಸದರ ಸಂಪೂರ್ಣ ಪಟ್ಟಿ. ${filterTitle}. ಆಸ್ತಿ ಘೋಷಣೆಗಳು, ಕ್ಷೇತ್ರಗಳು ಮತ್ತು ಸಚಿವರ ವಿವರಣೆ.`
-    : `Explore ${filterTitle}. Full directory of 224 Karnataka State Assembly MLAs & 28 Lok Sabha MPs. Verified affidavits, assets, criminal records & constituencies.`;
+    : `Explore ${filterTitle}. Full directory of 224 Karnataka State Assembly MLAs & 28 Lok Sabha MPs. Verified affidavits, assets, legal records & constituencies.`;
 
   return {
     title: `${filterTitle} | Karnataka Legislative Tracker`,

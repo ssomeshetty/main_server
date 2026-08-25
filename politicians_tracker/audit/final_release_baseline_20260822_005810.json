@@ -1,0 +1,144 @@
+{
+  "counts": {
+    "politician_total": 257,
+    "ministers": 34,
+    "mlas": 225,
+    "mlc": 0,
+    "mp_ls": 28,
+    "mp_rs": 4,
+    "election_results": 254,
+    "financial_declarations": 258,
+    "legal_records": 400,
+    "public_records": 1840
+  },
+  "mps": [
+    {
+      "id": 238,
+      "website_url": ""
+    },
+    {
+      "id": 83,
+      "website_url": ""
+    },
+    {
+      "id": 241,
+      "website_url": ""
+    },
+    {
+      "id": 246,
+      "website_url": ""
+    },
+    {
+      "id": 250,
+      "website_url": ""
+    },
+    {
+      "id": 255,
+      "website_url": ""
+    },
+    {
+      "id": 95,
+      "website_url": ""
+    },
+    {
+      "id": 232,
+      "website_url": ""
+    },
+    {
+      "id": 242,
+      "website_url": ""
+    },
+    {
+      "id": 254,
+      "website_url": ""
+    },
+    {
+      "id": 157,
+      "website_url": ""
+    },
+    {
+      "id": 228,
+      "website_url": ""
+    },
+    {
+      "id": 234,
+      "website_url": ""
+    },
+    {
+      "id": 239,
+      "website_url": ""
+    },
+    {
+      "id": 251,
+      "website_url": ""
+    },
+    {
+      "id": 253,
+      "website_url": ""
+    },
+    {
+      "id": 252,
+      "website_url": ""
+    },
+    {
+      "id": 229,
+      "website_url": ""
+    },
+    {
+      "id": 248,
+      "website_url": ""
+    },
+    {
+      "id": 237,
+      "website_url": ""
+    },
+    {
+      "id": 235,
+      "website_url": ""
+    },
+    {
+      "id": 227,
+      "website_url": ""
+    },
+    {
+      "id": 231,
+      "website_url": ""
+    },
+    {
+      "id": 230,
+      "website_url": ""
+    },
+    {
+      "id": 233,
+      "website_url": ""
+    },
+    {
+      "id": 247,
+      "website_url": ""
+    },
+    {
+      "id": 240,
+      "website_url": ""
+    },
+    {
+      "id": 245,
+      "website_url": ""
+    },
+    {
+      "id": 249,
+      "website_url": ""
+    },
+    {
+      "id": 243,
+      "website_url": ""
+    },
+    {
+      "id": 236,
+      "website_url": ""
+    },
+    {
+      "id": 244,
+      "website_url": ""
+    }
+  ]
+}

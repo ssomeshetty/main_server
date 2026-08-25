@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: "Karnataka Legislative & Parliamentary Tracker | Verified Representative Database",
     template: "%s | Karnataka Legislative Tracker",
   },
-  description: "Official public database & asset intelligence for all 224 State Assembly MLAs and 28 Lok Sabha MPs representing Karnataka. Sworn affidavits, financial declarations, criminal case records & portfolio disclosures.",
+  description: "Official public database & asset intelligence for Karnataka State Assembly MLAs, Lok Sabha MPs, and tracked Rajya Sabha members representing Karnataka. Sworn affidavits, financial declarations, declared legal cases & portfolio disclosures.",
   keywords: [
     "Karnataka Politicians",
     "Karnataka MLAs",
@@ -27,10 +27,6 @@ export const metadata: Metadata = {
     "Lok Sabha Karnataka 2024",
     "Karnataka Assembly 2023",
     "Karnataka Cabinet Ministers",
-    "Karnataka Politician Net Worth",
-    "DK Shivakumar net worth",
-    "Siddaramaiah MLA assets",
-    "MyNeta Karnataka",
     "Karnataka Election Affidavits",
     "Bengaluru MLAs",
   ],
@@ -49,7 +45,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: "Karnataka Legislative Tracker",
     title: "Karnataka Legislative & Parliamentary Tracker | Official Database",
-    description: "Verified public records, asset disclosures, criminal records, and portfolios of Karnataka MLAs and MPs.",
+    description: "Verified public records, asset disclosures, legal records, and portfolios of tracked Karnataka MLAs and MPs.",
     images: [
       {
         url: `${SITE_URL}/og-image.jpg`,
@@ -62,7 +58,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Karnataka Legislative & Parliamentary Tracker",
-    description: "Verified public records & financial declarations of all 224 Karnataka MLAs & 28 MPs.",
+    description: "Verified public records & financial declarations of tracked Karnataka MLAs & MPs.",
     images: [`${SITE_URL}/og-image.jpg`],
   },
   robots: {

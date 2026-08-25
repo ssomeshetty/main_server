@@ -454,7 +454,7 @@ class Command(BaseCommand):
         force = options.get('force', False)
 
         self.stdout.write(self.style.NOTICE('━' * 70))
-        self.stdout.write(self.style.NOTICE('PALANTIR DATA INGESTION ENGINE'))
+        self.stdout.write(self.style.NOTICE('CORE DATA INGESTION ENGINE'))
         self.stdout.write(self.style.NOTICE('Source 1: Census of India 2011 (censusindia.gov.in)'))
         self.stdout.write(self.style.NOTICE('Source 2: ECI Election Results (results.eci.gov.in via NDTV/MyNeta)'))
         self.stdout.write(self.style.NOTICE('━' * 70))

@@ -551,7 +551,7 @@ export interface GraphLink {
   label: string;
 }
 
-export interface KnowledgeGraphData {
+export interface EntityNetworkData {
   nodes: GraphNode[];
   links: GraphLink[];
   meta: {
@@ -561,47 +561,104 @@ export interface KnowledgeGraphData {
   };
 }
 
+export interface DataConfidence {
+  financial_history: 'INSUFFICIENT' | 'LOW' | 'MEDIUM' | 'HIGH';
+  electoral_history: 'INSUFFICIENT' | 'HIGH';
+  institutional_history: 'HIGH';
+}
+
+export interface DataCoverage {
+  election_results: boolean;
+  financial_declarations: number;
+  legal_records: number;
+  public_records: number;
+  office_current: boolean;
+  office_history: boolean;
+  party_current: boolean;
+  party_history: boolean;
+}
+
+export interface ProvenanceData {
+  financial_trajectory: {
+    earliest_declaration_year?: number;
+    latest_declaration_year?: number;
+    earliest_source_url: string | null;
+    latest_source_url: string | null;
+    verification_status: string;
+    retrieved_at: string | null;
+    last_verified: string | null;
+  };
+  historical_electoral_competitiveness: {
+    based_on_election?: number;
+    source_url: string | null;
+    verification_status: string;
+  };
+  legal_records: Array<{
+    case_number: string | null;
+    source_url: string | null;
+    source_organization: string | null;
+    verification_status: string;
+  }>;
+  temporal_history: {
+    office_tenures: Array<{
+      office_title: string | null;
+      source_url: string | null;
+      verification_status: string;
+    }>;
+    party_memberships: Array<{
+      party_name: string | null;
+      source_url: string | null;
+      verification_status: string;
+    }>;
+  };
+}
+
 export interface IntelligenceReport {
   politician_id: number;
   slug: string;
   name: string;
-  overall_intelligence_score: number;
-  financial_analysis: {
-    has_data: boolean;
-    current_net_worth: number;
-    total_assets?: number;
-    total_liabilities?: number;
-    cagr_pct: number;
-    asset_growth_factor: string;
-    leverage_ratio_pct: number;
-    anomaly_rating: 'LOW' | 'MODERATE' | 'ELEVATED' | 'HIGH';
-    anomaly_confidence: string;
-    risk_badge_color: string;
-    insight_text: string;
+  analytics: {
+    financial_trajectory: {
+      state: 'NO_DATA' | 'SINGLE_DECLARATION' | 'MULTI_YEAR_DATA';
+      current_net_worth: number;
+      total_assets: number | null;
+      total_liabilities: number | null;
+      cagr_pct: number | null;
+      asset_growth_factor: string | null;
+      leverage_ratio_pct: number | null;
+      has_multi_year_history: boolean;
+      insight_text: string;
+      declaration_count: number;
+    };
+    historical_electoral_competitiveness: {
+      competitiveness_score: number;
+      margin_pct: number;
+      winner_vote_share_pct: number;
+      runner_up_vote_share_pct: number;
+      margin_votes: number;
+      election_year: number;
+      competitiveness_category: 'STRONGHOLD' | 'MODERATE_HOLD' | 'COMPETITIVE' | 'CRITICAL_SWING';
+      category_label: string;
+      insight_text: string;
+    } | null;
+    institutional_seniority: {
+      seniority_score: number;
+      executive_weight: number;
+      office_title: string;
+      total_terms: number;
+      insight_text: string;
+    };
   };
-  electoral_vulnerability: {
-    vulnerability_score: number;
-    margin_pct: number;
-    votes_secured?: number;
-    margin_votes?: number;
-    swing_category: 'SECURE_HOLD' | 'COMPETITIVE_SEAT' | 'HIGH_VULNERABILITY' | 'CRITICAL_SWING_SEAT';
-    category_label: string;
-    badge_color: string;
-    evm_dominance_pct: number;
-    competitor_pressure_ratio: number;
-    insight_text: string;
+  legal_summary: {
+    total_cases: number;
+    pending_cases: number;
+    convictions: number;
+    acquittals: number;
   };
-  legislative_influence: {
-    influence_score: number;
-    seniority_score: number;
-    office_weight: number;
-    office_title: string;
-    governance_tier: string;
-    tier_label: string;
-    badge_color: string;
-    total_terms: number;
-  };
-  knowledge_graph: KnowledgeGraphData;
+  entity_network: EntityNetworkData;
+  data_confidence: DataConfidence;
+  coverage: DataCoverage;
+  provenance: ProvenanceData;
 }
 
 export async function fetchPoliticianIntelligence(slug: string, lang: Locale = 'en'): Promise<IntelligenceReport | null> {

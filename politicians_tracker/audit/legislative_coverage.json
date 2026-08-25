@@ -1,0 +1,20 @@
+{
+  "MLA": {
+    "expected": 225,
+    "db": 225
+  },
+  "MLC": {
+    "expected": 75,
+    "db": 0,
+    "product_scope": "EXCLUDED_INTENTIONALLY"
+  },
+  "Lok Sabha": {
+    "expected": 28,
+    "db": 28
+  },
+  "Rajya Sabha": {
+    "expected": 12,
+    "db": 4,
+    "missing": 8
+  }
+}

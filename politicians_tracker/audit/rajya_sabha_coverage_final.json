@@ -1,0 +1,7 @@
+{
+  "expected_current_members": 12,
+  "database_current_members": 4,
+  "matched": 4,
+  "missing": 8,
+  "total_coverage_percentage": 33.33333333333333
+}

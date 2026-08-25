@@ -1,0 +1,3202 @@
+[
+  {
+    "politician_id": 12,
+    "name": "Abhay Patil",
+    "case_number": "CC.No.868/2017",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 12,
+    "name": "Abhay Patil",
+    "case_number": "11320/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 12,
+    "name": "Abhay Patil",
+    "case_number": "PC-18/2012",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 35,
+    "name": "Ajay Singh",
+    "case_number": "Crime No 0149/2022 Siddapura Police Station",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 185,
+    "name": "Anil Chikkamadhu",
+    "case_number": "CC.No. 194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 185,
+    "name": "Anil Chikkamadhu",
+    "case_number": "CC No. 41/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 81,
+    "name": "Arabil Shivaram Hebbar",
+    "case_number": "CC No. 908/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 178,
+    "name": "Ashok Kumar Rai",
+    "case_number": "02/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 33,
+    "name": "Ashok M. Managuli",
+    "case_number": "Sambhandhapata Police Station - 187/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 200,
+    "name": "B. G. Govindappa",
+    "case_number": "CC No 1622/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 206,
+    "name": "B. K. Sangameshwara",
+    "case_number": "25/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 206,
+    "name": "B. K. Sangameshwara",
+    "case_number": "26/2021,\r\nCR No. 157/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 206,
+    "name": "B. K. Sangameshwara",
+    "case_number": "74/2010, CC No. SPL CC 828/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 206,
+    "name": "B. K. Sangameshwara",
+    "case_number": "62/2019, CC No. SPL CC 1295/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Spl. C 551/2015",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 596/2015",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 600/2015",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 12/2016",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 19/2016",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 467/2016",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 471/2016",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 120/2017",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 53/2016",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 2179/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 135/2013",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 6/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 21/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 105/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "SPL C 908/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "EX 3271/2019",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No 7781/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No 7924/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No 50822/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No. 65/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No.95/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No.695/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No. 1223/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No.30780/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Income Tax Cases-ITA 100003/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Income Tax Cases-ITA 100034/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Ex.C/150/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "EX. C/110/2016",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No 07/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No. 25063/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No. 24429/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No. 8983/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "CC No. 8890/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Crime No. 15/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Crime No. 26/2015",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Crime No. 27/2015, C-Report on 10.12.2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Crime No. 29/2015",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Crime No. 30/2015",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Crime No. 31/2015",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Crime No. 02/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Crime No.03/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 93,
+    "name": "B. Nagendra",
+    "case_number": "Pending",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 149,
+    "name": "B. Shivanna",
+    "case_number": "CC.NO.-7793/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 112,
+    "name": "B. Suresh Gowda",
+    "case_number": "221/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 112,
+    "name": "B. Suresh Gowda",
+    "case_number": "Spl. C.C. 1342/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 105,
+    "name": "B. Y. Vijayendra",
+    "case_number": "Cr. No 3/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 105,
+    "name": "B. Y. Vijayendra",
+    "case_number": "F.No.ECIR/BGZO/06/2013",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 141,
+    "name": "B. Z. Zameer Ahmed Khan",
+    "case_number": "CC No 160/2015",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 141,
+    "name": "B. Z. Zameer Ahmed Khan",
+    "case_number": "Crime No 27/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 141,
+    "name": "B. Z. Zameer Ahmed Khan",
+    "case_number": "Crime No 39/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 141,
+    "name": "B. Z. Zameer Ahmed Khan",
+    "case_number": "O.A. No 527/2021 In ECIR/BGZO/03/2019",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 141,
+    "name": "B. Z. Zameer Ahmed Khan",
+    "case_number": "ECIR/HIU-1/19/2022/452",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 53,
+    "name": "Basanagouda Daddal",
+    "case_number": "CC No-0000389/2019",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 59,
+    "name": "Basanagouda Turvihal",
+    "case_number": "CC No. 5439/2021 transferred to CC No. 32293/21",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 30,
+    "name": "Basangouda Patil Yatnal",
+    "case_number": "C.C.1081/2004 dated 16-11-2015, transferred to C.C.No.134/2015",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 30,
+    "name": "Basangouda Patil Yatnal",
+    "case_number": "C.C. No.110/2001",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 30,
+    "name": "Basangouda Patil Yatnal",
+    "case_number": "C.C. No.628/2013, transferred to C.C.No.18452/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 30,
+    "name": "Basangouda Patil Yatnal",
+    "case_number": "C.C.No.636/2013 transferred to C.C.No. 14523/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 204,
+    "name": "Basavaraju V. Shivaganga",
+    "case_number": "0187/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 204,
+    "name": "Basavaraju V. Shivaganga",
+    "case_number": "CC No:1349/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 204,
+    "name": "Basavaraju V. Shivaganga",
+    "case_number": "CC No:3/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 131,
+    "name": "Byrathi Suresh",
+    "case_number": "CC No-56902/2019",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 131,
+    "name": "Byrathi Suresh",
+    "case_number": "Crime No-0149/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 124,
+    "name": "Byrati Basavaraj",
+    "case_number": "CC No. 91/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 146,
+    "name": "C. K. Ramamurthy",
+    "case_number": "3040/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 146,
+    "name": "C. K. Ramamurthy",
+    "case_number": "PCR-19857/2021, CC37087/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 146,
+    "name": "C. K. Ramamurthy",
+    "case_number": "0069/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 130,
+    "name": "C. N. Ashwath Narayan",
+    "case_number": "P.C.R. No. 77/2020 New Spl C.C. No. 564/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 195,
+    "name": "C. Puttarangashetty",
+    "case_number": "CC.No.146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 195,
+    "name": "C. Puttarangashetty",
+    "case_number": "CC.No.8717/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 65,
+    "name": "Chandru Lamani",
+    "case_number": "Cr.No.45/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 205,
+    "name": "D. G. Shanthana Gowda",
+    "case_number": "PAR:33/2023 Honnali Police Station",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 205,
+    "name": "D. G. Shanthana Gowda",
+    "case_number": "PAR:192/2022 Honnali Police Station",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 183,
+    "name": "D. Ravishankar",
+    "case_number": "CC No. 91/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 199,
+    "name": "D. Sudhakar",
+    "case_number": "SPL. CC No. 171/2009",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 199,
+    "name": "D. Sudhakar",
+    "case_number": "C.R No.095/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 175,
+    "name": "D. Vedavyas Kamath",
+    "case_number": "CC. No. 30799/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "0147/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "0149/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CC No. 6231/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CC No. 8717/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CC No. 194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CC No. 145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CC No. 146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CC No. 1663/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CC No. 25317/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CC No. 32628/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CC No. 3169/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CBI/ACB/BLR/RC10A/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "ECIR/18/HIU/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CT/17/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "Spl CC 286/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "Spl CC 285/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "Spl CC 287/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "Spl CC 759/2018 New re-numbered as CC 30798/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 156,
+    "name": "D.K. Shivakumar",
+    "case_number": "CR No. 26/2012",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 186,
+    "name": "Darshan Dhruvanarayana",
+    "case_number": "0039/2023 Nanjangud Police Station",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 152,
+    "name": "Dheeraj Muniraj",
+    "case_number": "14/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 60,
+    "name": "Doddanagouda Patil",
+    "case_number": "138/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 51,
+    "name": "Eshwara Khandre",
+    "case_number": "Cr. No. 26/23 Mehkar Police Station Bhalki Tq. Bidar Dist.",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 51,
+    "name": "Eshwara Khandre",
+    "case_number": "Cr. No. 46/23 Town Police Station",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 51,
+    "name": "Eshwara Khandre",
+    "case_number": "CC No. 6231/22",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 51,
+    "name": "Eshwara Khandre",
+    "case_number": "CC 194/22",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 51,
+    "name": "Eshwara Khandre",
+    "case_number": "CC No.146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 51,
+    "name": "Eshwara Khandre",
+    "case_number": "CC No.145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 51,
+    "name": "Eshwara Khandre",
+    "case_number": "CC No. 32628/21",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 111,
+    "name": "G. B. Jyothi Ganesh",
+    "case_number": "221/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 111,
+    "name": "G. B. Jyothi Ganesh",
+    "case_number": "Spl. C.C. 1342/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 184,
+    "name": "G. D. Harish Gowda",
+    "case_number": "CR No. 10/2017",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "CC No. 8983/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "CC 8890/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Crime No 39/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Spl CC No. 2509/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Spl CC No. 2252/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "CC No. 30779/2021 Income Tax Department",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "CC No. 695/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Spl CC 164/2019",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Crime No 31/2015",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Crime No 30/2015 Lokayuktha SIT",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Crime No 26/2015 Lokayuktha SIT Bangalore",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Crime No 79/2015 Lokayuktha Bangalore",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Spl CC No. 105/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Spl CC No. 21/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Spl CC No. 06/2014 RC14A/2012 by CBI/ACB",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "CC No. 135/2013",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "Spl CC 116/2012",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "CC No 15/2012",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "CC No. 12/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 62,
+    "name": "G. Janardhana Reddy",
+    "case_number": "CC 01/2012",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 117,
+    "name": "G. K. Venkatashiva Reddy",
+    "case_number": "04/2019, C.C.30772/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 218,
+    "name": "G. Parameshwara",
+    "case_number": "CC No: 145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 218,
+    "name": "G. Parameshwara",
+    "case_number": "CC No: 25317/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 218,
+    "name": "G. Parameshwara",
+    "case_number": "Siddha Pura Police Vijayanagar Sub-Division Bangalore City no: 0149/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 109,
+    "name": "Gurme Suresh Shetty",
+    "case_number": "908/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 109,
+    "name": "Gurme Suresh Shetty",
+    "case_number": "469/2016",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 109,
+    "name": "Gurme Suresh Shetty",
+    "case_number": "264/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 106,
+    "name": "Gururaj Gantihole",
+    "case_number": "CC No. 572/18",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 155,
+    "name": "H. A. Iqbal Hussain",
+    "case_number": "CC.No.6231/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 155,
+    "name": "H. A. Iqbal Hussain",
+    "case_number": "CC.No.94/2007",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 155,
+    "name": "H. A. Iqbal Hussain",
+    "case_number": "CC.No.1531/2019",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 155,
+    "name": "H. A. Iqbal Hussain",
+    "case_number": "CC.No.939/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 155,
+    "name": "H. A. Iqbal Hussain",
+    "case_number": "CC.No.8717/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 154,
+    "name": "H. C. Balakrishna",
+    "case_number": "CC No 30762/21",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 154,
+    "name": "H. C. Balakrishna",
+    "case_number": "CC No 934/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 192,
+    "name": "H. C. Mahadevappa",
+    "case_number": "CC 194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 192,
+    "name": "H. C. Mahadevappa",
+    "case_number": "0149/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 157,
+    "name": "H. D. Kumaraswamy",
+    "case_number": "30756/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 157,
+    "name": "H. D. Kumaraswamy",
+    "case_number": "30757/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 157,
+    "name": "H. D. Kumaraswamy",
+    "case_number": "30750/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 157,
+    "name": "H. D. Kumaraswamy",
+    "case_number": "30786/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 157,
+    "name": "H. D. Kumaraswamy",
+    "case_number": "30788/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 157,
+    "name": "H. D. Kumaraswamy",
+    "case_number": "30789/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 157,
+    "name": "H. D. Kumaraswamy",
+    "case_number": "30790/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 157,
+    "name": "H. D. Kumaraswamy",
+    "case_number": "30793/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 157,
+    "name": "H. D. Kumaraswamy",
+    "case_number": "30796/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 157,
+    "name": "H. D. Kumaraswamy",
+    "case_number": "CC17977/18",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 217,
+    "name": "H. D. Ranganath",
+    "case_number": "CC no-4749/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 217,
+    "name": "H. D. Ranganath",
+    "case_number": "Old CC No-060286/05, New CC No-1400368/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 217,
+    "name": "H. D. Ranganath",
+    "case_number": "0072/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 217,
+    "name": "H. D. Ranganath",
+    "case_number": "0078/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 217,
+    "name": "H. D. Ranganath",
+    "case_number": "0083/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 217,
+    "name": "H. D. Ranganath",
+    "case_number": "103/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 217,
+    "name": "H. D. Ranganath",
+    "case_number": "CC No-194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 217,
+    "name": "H. D. Ranganath",
+    "case_number": "CC No-146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 169,
+    "name": "H. D. Revanna",
+    "case_number": "CC No. 194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 66,
+    "name": "H. K. Patil",
+    "case_number": "CC.No.145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 66,
+    "name": "H. K. Patil",
+    "case_number": "CC.No.6231/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 90,
+    "name": "H. R. Gaviyappa",
+    "case_number": "Crime No. 44/23",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 164,
+    "name": "H. T. Manju",
+    "case_number": "CC No.198/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 164,
+    "name": "H. T. Manju",
+    "case_number": "CC No.940/2012 & 941/2012",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 58,
+    "name": "Hampanagouda Badarli",
+    "case_number": "P.C. No. 62/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 172,
+    "name": "Harish Poonja",
+    "case_number": "179/2017",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 198,
+    "name": "K. C. Veerendra Puppy",
+    "case_number": "0062/2023 dated 03/04/2023 Rural Police Station Chitradurga",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 198,
+    "name": "K. C. Veerendra Puppy",
+    "case_number": "0128/2023 dated 31/03/2023 Rural Police Station Chitradurga",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 151,
+    "name": "K. H. Muniyappa",
+    "case_number": "CR: 95/2013",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 189,
+    "name": "K. Harish Gowda",
+    "case_number": "CC.No.146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 189,
+    "name": "K. Harish Gowda",
+    "case_number": "CC.No.8717/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 159,
+    "name": "K. M. Udaya",
+    "case_number": "C.R. No.0079/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 159,
+    "name": "K. M. Udaya",
+    "case_number": "C.R.No. 0300/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 159,
+    "name": "K. M. Udaya",
+    "case_number": "C.R.NO 0202/2017",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 89,
+    "name": "K. Nemiraj Naik",
+    "case_number": "CC No. 409/2022 transferred to CC No. 30045/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 89,
+    "name": "K. Nemiraj Naik",
+    "case_number": "CC No. 362/2022 transferred to CC No. 30011/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 89,
+    "name": "K. Nemiraj Naik",
+    "case_number": "CC No. 408/2022 transferred to CC No. 30670/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 213,
+    "name": "K. S. Anand",
+    "case_number": "CC No 85/22",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 213,
+    "name": "K. S. Anand",
+    "case_number": "240/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 203,
+    "name": "K. S. Basavanthappa",
+    "case_number": "0009/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 122,
+    "name": "K. Y. Nanjegowda",
+    "case_number": "Cr. No-489/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 122,
+    "name": "K. Y. Nanjegowda",
+    "case_number": "Cr. No-109/21",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 122,
+    "name": "K. Y. Nanjegowda",
+    "case_number": "LGC.(T) 342/17",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 122,
+    "name": "K. Y. Nanjegowda",
+    "case_number": "C.C. 8717/22",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 56,
+    "name": "Karemma Nayak",
+    "case_number": "CC No.1789/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 56,
+    "name": "Karemma Nayak",
+    "case_number": "CC No.39/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 56,
+    "name": "Karemma Nayak",
+    "case_number": "CC No.40/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 56,
+    "name": "Karemma Nayak",
+    "case_number": "CC No.347/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 56,
+    "name": "Karemma Nayak",
+    "case_number": "CC No.3/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 56,
+    "name": "Karemma Nayak",
+    "case_number": "CC No.41/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 56,
+    "name": "Karemma Nayak",
+    "case_number": "CC No.43/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 121,
+    "name": "Kothur G. Manjunath",
+    "case_number": "CC No.105/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 125,
+    "name": "Krishna Byre Gowda",
+    "case_number": "CC No. 146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 125,
+    "name": "Krishna Byre Gowda",
+    "case_number": "CC No. 8717/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 88,
+    "name": "Krishna Nayaka",
+    "case_number": "Crime No. 45/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 143,
+    "name": "L. A. Ravi Subramanya",
+    "case_number": "CC No. 24636/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 13,
+    "name": "Lakshmi Hebbalkar",
+    "case_number": "CC.No.146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 13,
+    "name": "Lakshmi Hebbalkar",
+    "case_number": "CC.No.145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 13,
+    "name": "Lakshmi Hebbalkar",
+    "case_number": "CC.No.6231/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 3,
+    "name": "Laxman Savadi",
+    "case_number": "CC.No.3095/2021 transferred to C.C.No.15686/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 29,
+    "name": "M. B. Patil",
+    "case_number": "Crime No: 0149/2022 Shidhapura Police Statio",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 29,
+    "name": "M. B. Patil",
+    "case_number": "Crime No: 0054/2022 Hydrentants Police Station Bangalore Dt- 14/06/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 29,
+    "name": "M. B. Patil",
+    "case_number": "CC No: 6231/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 29,
+    "name": "M. B. Patil",
+    "case_number": "CC. No: 146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 29,
+    "name": "M. B. Patil",
+    "case_number": "CC.No.8717/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 226,
+    "name": "M. Krishnappa",
+    "case_number": "PCR 14506/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 119,
+    "name": "M. Roopakala",
+    "case_number": "Criminal Petition No CRL. P8718/2021, I.A. No 1/2023 for Stay.",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 119,
+    "name": "M. Roopakala",
+    "case_number": "Cr. No. 1269/2017, Dt 19.10.2017",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 79,
+    "name": "M. S. Vaidya",
+    "case_number": "120/10-11",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 216,
+    "name": "M. T. Krishnappa",
+    "case_number": "CR No.18/2017",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 216,
+    "name": "M. T. Krishnappa",
+    "case_number": "CC No.1359/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 216,
+    "name": "M. T. Krishnappa",
+    "case_number": "CC No.1360/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 216,
+    "name": "M. T. Krishnappa",
+    "case_number": "CC No.1361/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 216,
+    "name": "M. T. Krishnappa",
+    "case_number": "CC No.1362/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 216,
+    "name": "M. T. Krishnappa",
+    "case_number": "CC No.1363/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 216,
+    "name": "M. T. Krishnappa",
+    "case_number": "CC No.2845/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 216,
+    "name": "M. T. Krishnappa",
+    "case_number": "CC No.1480/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 207,
+    "name": "Madhu Bangarappa",
+    "case_number": "CC No- 146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 207,
+    "name": "Madhu Bangarappa",
+    "case_number": "CC No- 33569/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 16,
+    "name": "Mahantesh Koujalagi",
+    "case_number": "CR No-0035/23",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 5,
+    "name": "Mahendra Tammannavar",
+    "case_number": "Crime No. 83/2013",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 73,
+    "name": "Mahesh Tenginakai",
+    "case_number": "CC No.1283/2015",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 127,
+    "name": "Munirathna",
+    "case_number": "Crime No.119/2023 Rajarajeshwari Nagar Police Station Bengaluru",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 127,
+    "name": "Munirathna",
+    "case_number": "Crime No.109/2023 Rajarajeshwari Nagar Police Station Bengaluru",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 127,
+    "name": "Munirathna",
+    "case_number": "Crime No.33/2023 Jalahalli Police Station Bengaluru",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 127,
+    "name": "Munirathna",
+    "case_number": "P.C.R./12745/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 127,
+    "name": "Munirathna",
+    "case_number": "P.C.R./7674/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 127,
+    "name": "Munirathna",
+    "case_number": "CC No.30791/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 127,
+    "name": "Munirathna",
+    "case_number": "CC No.30806/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 127,
+    "name": "Munirathna",
+    "case_number": "Transferred to CID Bangalore Spl. C.C. No.106/2018, Spl. C.C. No.473/2018, Spl. C.C. No.522/2018- In All the Three cases which arises out of one Crime No.4/2011",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 136,
+    "name": "N. A. Haris",
+    "case_number": "CC No. 149/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 163,
+    "name": "N. Chaluvaraya Swamy",
+    "case_number": "CC NO.145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 153,
+    "name": "N. Shreenivasaiah",
+    "case_number": "CC. No. 30799/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 94,
+    "name": "Nara Bharath Reddy",
+    "case_number": "0024/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 94,
+    "name": "Nara Bharath Reddy",
+    "case_number": "PCR No-74/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 7,
+    "name": "Nikhil Umesh Katti",
+    "case_number": "SCC No.464/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 158,
+    "name": "P. M. Narendraswamy",
+    "case_number": "CC.No.6231/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 114,
+    "name": "Pradeep Eshwar",
+    "case_number": "CC No 324/2019",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 114,
+    "name": "Pradeep Eshwar",
+    "case_number": "Cr. No 37/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 139,
+    "name": "Priya Krishna",
+    "case_number": "CC No 146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 40,
+    "name": "Priyank Kharge",
+    "case_number": "PCR 2990/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 40,
+    "name": "Priyank Kharge",
+    "case_number": "0019/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 40,
+    "name": "Priyank Kharge",
+    "case_number": "0149/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 40,
+    "name": "Priyank Kharge",
+    "case_number": "0054/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 40,
+    "name": "Priyank Kharge",
+    "case_number": "8717/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 40,
+    "name": "Priyank Kharge",
+    "case_number": "6231/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 40,
+    "name": "Priyank Kharge",
+    "case_number": "194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 40,
+    "name": "Priyank Kharge",
+    "case_number": "145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 40,
+    "name": "Priyank Kharge",
+    "case_number": "146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 144,
+    "name": "R. Ashoka",
+    "case_number": "Cr. No. 19/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 19,
+    "name": "R. B. Timmapur",
+    "case_number": "CC No.30768/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 76,
+    "name": "R. V. Deshpande",
+    "case_number": "CNR No. KABC03-048047-2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 64,
+    "name": "Raghavendra Hitnal",
+    "case_number": "0030/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 36,
+    "name": "Raja Venkatappa Naik",
+    "case_number": "24/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 36,
+    "name": "Raja Venkatappa Naik",
+    "case_number": "29/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 36,
+    "name": "Raja Venkatappa Naik",
+    "case_number": "CC No. 474/2019",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 36,
+    "name": "Raja Venkatappa Naik",
+    "case_number": "CC No. 378/2016",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 145,
+    "name": "Ramalinga Reddy",
+    "case_number": "CC 145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 145,
+    "name": "Ramalinga Reddy",
+    "case_number": "CC 3169/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 145,
+    "name": "Ramalinga Reddy",
+    "case_number": "CC 6231/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 145,
+    "name": "Ramalinga Reddy",
+    "case_number": "Crime No. 149/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 9,
+    "name": "Ramesh Jarkiholi",
+    "case_number": "Cr.No.3210/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 162,
+    "name": "Ramesha Bandisiddegowda",
+    "case_number": "RC No.21(A)/2014/CBI/ACB/BLR",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 162,
+    "name": "Ramesha Bandisiddegowda",
+    "case_number": "CR.No.123/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 161,
+    "name": "Ravikumar Gowda",
+    "case_number": "CC 6231/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 161,
+    "name": "Ravikumar Gowda",
+    "case_number": "CC No. 27675/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 161,
+    "name": "Ravikumar Gowda",
+    "case_number": "CC No. 166/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 161,
+    "name": "Ravikumar Gowda",
+    "case_number": "CC No. 58/2013",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 161,
+    "name": "Ravikumar Gowda",
+    "case_number": "Ct Case No. 2343/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 161,
+    "name": "Ravikumar Gowda",
+    "case_number": "Ct Case No. 11697/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 161,
+    "name": "Ravikumar Gowda",
+    "case_number": "NACT/17214/2019",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 135,
+    "name": "Rizwan Arshad",
+    "case_number": "CC No. 146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 135,
+    "name": "Rizwan Arshad",
+    "case_number": "CC No. 194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 135,
+    "name": "Rizwan Arshad",
+    "case_number": "CC No. 3169/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 135,
+    "name": "Rizwan Arshad",
+    "case_number": "CC No. 25317/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 103,
+    "name": "S. N. Channabasappa",
+    "case_number": "164/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 120,
+    "name": "S. N. Narayanaswamy",
+    "case_number": "0310/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 219,
+    "name": "S. R. Srinivas",
+    "case_number": "0114/2023 F Gubbi Police Station N.H.206 Subashnagar circle Gubbi",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 123,
+    "name": "S. R. Vishwanath",
+    "case_number": "SPL. C 564/2021 1386-CCH82",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 123,
+    "name": "S. R. Vishwanath",
+    "case_number": "CC 37125/2021, 1354-42",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 100,
+    "name": "S. S. Mallikarjun",
+    "case_number": "CR No. 6350/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 100,
+    "name": "S. S. Mallikarjun",
+    "case_number": "CR No. 6350/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 126,
+    "name": "S. T. Somashekhar",
+    "case_number": "Cr. No. 3/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 118,
+    "name": "Samruddhi Manjunath",
+    "case_number": "CR 107/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 118,
+    "name": "Samruddhi Manjunath",
+    "case_number": "CC no 298/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 75,
+    "name": "Santosh Lad",
+    "case_number": "CC No-25697 of 2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 75,
+    "name": "Santosh Lad",
+    "case_number": "CC No-386/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 75,
+    "name": "Santosh Lad",
+    "case_number": "CC No-387/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 75,
+    "name": "Santosh Lad",
+    "case_number": "CC No-401/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 75,
+    "name": "Santosh Lad",
+    "case_number": "CC No-402/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 75,
+    "name": "Santosh Lad",
+    "case_number": "CC No-414/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 75,
+    "name": "Santosh Lad",
+    "case_number": "CC No-4094/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 75,
+    "name": "Santosh Lad",
+    "case_number": "SPI.CC No-165/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 10,
+    "name": "Satish Jarkiholi",
+    "case_number": "0020/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 10,
+    "name": "Satish Jarkiholi",
+    "case_number": "CC.No.146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "C.C.No-301/12, 302/12, 303/12, 304/12, 305/12, 306/12, 307/12, 308/12, 309/12, 310/12, 311/12, 312/12, 313/12, 314/12",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "105/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "SPL CC-11/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "SPL CC-15/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "SPL CC-37/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "SPL CC-38/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "SPL CC-53/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "SPL CC-54/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "SPL CC-21/2014",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "CC No-52/2007, 29.04.2006",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "CC No-675/2009",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "O.S. 15/2011",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "O.S. 120/2012",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 77,
+    "name": "Satish Krishna Sail",
+    "case_number": "CC No-679/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 49,
+    "name": "Shailendra Beldale",
+    "case_number": "CC No. 3538/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 101,
+    "name": "Shamanuru Shivashankarappa",
+    "case_number": "Crime No 72/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 102,
+    "name": "Sharada Puryanaik",
+    "case_number": "164/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 41,
+    "name": "Sharan Prakash Patil",
+    "case_number": "CC No. 8717/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 41,
+    "name": "Sharan Prakash Patil",
+    "case_number": "CC No. 194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 41,
+    "name": "Sharan Prakash Patil",
+    "case_number": "CC No. 267/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 39,
+    "name": "Sharanagouda Kandakur",
+    "case_number": "Crime No. 62/2020, CC No. 02/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 39,
+    "name": "Sharanagouda Kandakur",
+    "case_number": "Crime No. 82/2019, CC No. 184/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 39,
+    "name": "Sharanagouda Kandakur",
+    "case_number": "Crime No. 28/2017, CC No. 676/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 47,
+    "name": "Sharanu Salagar",
+    "case_number": "C.C. No. 67/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 150,
+    "name": "Sharath Kumar Bache Gowda",
+    "case_number": "CC No. 1347/2019",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 150,
+    "name": "Sharath Kumar Bache Gowda",
+    "case_number": "CC No. 160/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 150,
+    "name": "Sharath Kumar Bache Gowda",
+    "case_number": "CC No. 10277/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 150,
+    "name": "Sharath Kumar Bache Gowda",
+    "case_number": "CC No. 146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 1,
+    "name": "Shashikala Jolle",
+    "case_number": "0035/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "6231/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "8717/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "84/2007",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "85/2007",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "86/2007",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "88/2007",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "89/2007",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "68/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "54/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "149/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 191,
+    "name": "Siddaramaiah",
+    "case_number": "263/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 48,
+    "name": "Siddu Patil",
+    "case_number": "CC No. 341/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 48,
+    "name": "Siddu Patil",
+    "case_number": "Cr. No. 62/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 48,
+    "name": "Siddu Patil",
+    "case_number": "Cr. No. 76/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 20,
+    "name": "Siddu Savadi",
+    "case_number": "PCR No.119/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 20,
+    "name": "Siddu Savadi",
+    "case_number": "PCR No.7/2020",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 220,
+    "name": "T. B. Jayachandra",
+    "case_number": "CC No. 25317/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 220,
+    "name": "T. B. Jayachandra",
+    "case_number": "CC No. 8717/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 220,
+    "name": "T. B. Jayachandra",
+    "case_number": "CC No. 194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 220,
+    "name": "T. B. Jayachandra",
+    "case_number": "CC No. 145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 220,
+    "name": "T. B. Jayachandra",
+    "case_number": "CC No. 146/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 220,
+    "name": "T. B. Jayachandra",
+    "case_number": "CC No. 16955/2016",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 190,
+    "name": "Tanveer Sait",
+    "case_number": "CC No. 194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 176,
+    "name": "U. T. Khader",
+    "case_number": "CC. No. 25317/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 176,
+    "name": "U. T. Khader",
+    "case_number": "CC. No. 6231/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 176,
+    "name": "U. T. Khader",
+    "case_number": "CC. No. 145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 142,
+    "name": "Uday Garudachar",
+    "case_number": "Criminal Revision Petition No. 60/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 142,
+    "name": "Uday Garudachar",
+    "case_number": "CC No. 30758/2021 (Spl. CC No. 764/2020)",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 173,
+    "name": "Umanatha Kotian",
+    "case_number": "CC No 4066/2016",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 110,
+    "name": "V. Sunil Kumar",
+    "case_number": "Crime No.16/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 25,
+    "name": "Vijayanand Kashappanavar",
+    "case_number": "Crime No.98/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 25,
+    "name": "Vijayanand Kashappanavar",
+    "case_number": "CC No.5802/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 25,
+    "name": "Vijayanand Kashappanavar",
+    "case_number": "CC No.8441/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 25,
+    "name": "Vijayanand Kashappanavar",
+    "case_number": "CC No.14282/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 25,
+    "name": "Vijayanand Kashappanavar",
+    "case_number": "CC No.14306/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 25,
+    "name": "Vijayanand Kashappanavar",
+    "case_number": "CC No.14044/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 25,
+    "name": "Vijayanand Kashappanavar",
+    "case_number": "CC No.27541/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 25,
+    "name": "Vijayanand Kashappanavar",
+    "case_number": "M.A.G. 2021/22",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 25,
+    "name": "Vijayanand Kashappanavar",
+    "case_number": "CC No.14002/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 25,
+    "name": "Vijayanand Kashappanavar",
+    "case_number": "CC No.18856/2016",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 25,
+    "name": "Vijayanand Kashappanavar",
+    "case_number": "Spl. Case No.72/2018",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 71,
+    "name": "Vinay Kulkarni",
+    "case_number": "CC No. 145/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 71,
+    "name": "Vinay Kulkarni",
+    "case_number": "CC No. 146/2022, CC No:194/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 71,
+    "name": "Vinay Kulkarni",
+    "case_number": "CC No.515/2021",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 71,
+    "name": "Vinay Kulkarni",
+    "case_number": "R.C.17(S)/2019/CBI/ACB/Bengalore, C.C.No.964/2016, Bangalore case transferred Special Case C.C.No.565/2021, transferred C.C.No.1856/2021 The above dharwad district court cases are transferred to Bangalore CBI Court and clubbed, no charge sheet filed.",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 71,
+    "name": "Vinay Kulkarni",
+    "case_number": "Pending",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 71,
+    "name": "Vinay Kulkarni",
+    "case_number": "Pending",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 71,
+    "name": "Vinay Kulkarni",
+    "case_number": "Pending",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 17,
+    "name": "Vishwas Vaidya",
+    "case_number": "0097/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 31,
+    "name": "Vittal Katakadhond",
+    "case_number": "CC No.18437/2022",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 32,
+    "name": "Yashavanta Patil",
+    "case_number": "Indi City Police Station 142/2019",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 32,
+    "name": "Yashavanta Patil",
+    "case_number": "Ghalki Police Station 50/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 32,
+    "name": "Yashavanta Patil",
+    "case_number": "Mohalla Police Station 56/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  },
+  {
+    "politician_id": 108,
+    "name": "Yashpal Anand Suvarna",
+    "case_number": "Cri. Misc. 66/2023",
+    "status": "charges_filed",
+    "implies_conviction": false,
+    "source_url": ""
+  }
+]

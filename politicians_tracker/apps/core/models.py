@@ -1739,6 +1739,18 @@ class ElectionResult(TimestampMixin):
         verbose_name=_('Runner-up Vote Percentage')
     )
 
+    # Provenance
+    source_url = models.URLField(
+        max_length=500,
+        null=True,
+        blank=True,
+        verbose_name=_('Source URL')
+    )
+    is_verified = models.BooleanField(
+        default=False,
+        verbose_name=_('Is Verified')
+    )
+
     class Meta:
         verbose_name = _('Election Result')
         verbose_name_plural = _('Election Results')
@@ -1752,3 +1764,140 @@ class ElectionResult(TimestampMixin):
     def __str__(self):
         return f"{self.politician.full_name_en} - {self.constituency_name} ({self.election_year})"
 
+
+# =============================================================================
+# Temporal Domain Models
+# =============================================================================
+
+class OfficeTenure(TimestampMixin):
+    """
+    Historical and current political office holding periods.
+    """
+    OFFICE_TYPE_CHOICES = (
+        ('mla', _('Member of Legislative Assembly (MLA)')),
+        ('mp_ls', _('Member of Parliament - Lok Sabha (MP)')),
+        ('mp_rs', _('Member of Parliament - Rajya Sabha (MP)')),
+        ('cm', _('Chief Minister')),
+        ('deputy_cm', _('Deputy Chief Minister')),
+        ('cabinet_minister', _('Cabinet Minister')),
+        ('minister_of_state', _('Minister of State')),
+        ('union_minister', _('Union Minister')),
+        ('other', _('Other')),
+    )
+    politician = models.ForeignKey(
+        Politician,
+        on_delete=models.CASCADE,
+        related_name='office_tenures',
+        verbose_name=_('Politician')
+    )
+    office_type = models.CharField(
+        max_length=50,
+        choices=OFFICE_TYPE_CHOICES,
+        db_index=True,
+        verbose_name=_('Office Type')
+    )
+    office_title = models.CharField(
+        max_length=255,
+        blank=True,
+        verbose_name=_('Office Title / Portfolio')
+    )
+    constituency = models.ForeignKey(
+        Constituency,
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name='historical_representatives',
+        verbose_name=_('Constituency')
+    )
+    start_date = models.DateField(
+        null=True,
+        blank=True,
+        verbose_name=_('Start Date')
+    )
+    end_date = models.DateField(
+        null=True,
+        blank=True,
+        verbose_name=_('End Date')
+    )
+    is_current = models.BooleanField(
+        default=False,
+        db_index=True,
+        verbose_name=_('Is Current')
+    )
+    source_url = models.URLField(
+        max_length=500,
+        null=True,
+        blank=True,
+        verbose_name=_('Source URL')
+    )
+    is_verified = models.BooleanField(
+        default=False,
+        verbose_name=_('Is Verified')
+    )
+
+    class Meta:
+        verbose_name = _('Office Tenure')
+        verbose_name_plural = _('Office Tenures')
+        ordering = ['-start_date', '-is_current']
+        indexes = [
+            models.Index(fields=['politician', 'is_current']),
+            models.Index(fields=['politician', 'office_type']),
+        ]
+
+    def __str__(self):
+        return f"{self.politician.full_name_en} - {self.get_office_type_display()} ({'Current' if self.is_current else 'Historical'})"
+
+
+class PartyMembership(TimestampMixin):
+    """
+    Historical and current political party affiliations.
+    """
+    politician = models.ForeignKey(
+        Politician,
+        on_delete=models.CASCADE,
+        related_name='party_memberships',
+        verbose_name=_('Politician')
+    )
+    party = models.ForeignKey(
+        Party,
+        on_delete=models.CASCADE,
+        related_name='historical_members',
+        verbose_name=_('Party')
+    )
+    start_date = models.DateField(
+        null=True,
+        blank=True,
+        verbose_name=_('Start Date')
+    )
+    end_date = models.DateField(
+        null=True,
+        blank=True,
+        verbose_name=_('End Date')
+    )
+    is_current = models.BooleanField(
+        default=False,
+        db_index=True,
+        verbose_name=_('Is Current')
+    )
+    source_url = models.URLField(
+        max_length=500,
+        null=True,
+        blank=True,
+        verbose_name=_('Source URL')
+    )
+    is_verified = models.BooleanField(
+        default=False,
+        verbose_name=_('Is Verified')
+    )
+
+    class Meta:
+        verbose_name = _('Party Membership')
+        verbose_name_plural = _('Party Memberships')
+        ordering = ['-start_date', '-is_current']
+        indexes = [
+            models.Index(fields=['politician', 'is_current']),
+            models.Index(fields=['party', 'is_current']),
+        ]
+
+    def __str__(self):
+        return f"{self.politician.full_name_en} - {self.party.party_short_name_en} ({'Current' if self.is_current else 'Historical'})"

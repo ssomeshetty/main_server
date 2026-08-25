@@ -7,7 +7,8 @@ import { notFound } from 'next/navigation';
 import PoliticianAvatar from '../../../../components/PoliticianAvatar';
 import ElectoralVoteShareChart from '../../../../components/ElectoralVoteShareChart';
 import AreaDemographicsCard from '../../../../components/AreaDemographicsCard';
-import PalantirIntelligencePanel from '../../../../components/PalantirIntelligencePanel';
+import AnalyticsPanel from '../../../../components/AnalyticsPanel';
+
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://politicianstracker.in';
 
@@ -280,56 +281,15 @@ export default async function PoliticianProfile({
       <div className="container">
         <div className="profile-content">
           <div className="main-column">
-            {/* Palantir Intelligence Data & Network Graph Suite */}
-            {intelligence && (
-              <PalantirIntelligencePanel data={intelligence} lang={lang} />
-            )}
-
-            {/* Union Cabinet Portfolio Card */}
-            {pol.is_union_minister && (
-              <section className="dashboard-section glass-panel" style={{ borderLeft: '4px solid var(--text-muted)', background: 'var(--bg-hover)' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-                  <Crown size={20} color="var(--text-secondary)" />
-                  <h2 style={{ margin: 0, fontSize: '1.2rem', color: 'var(--text-primary)' }}>Union Cabinet & Central Ministries</h2>
-                </div>
-                <div style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--text-secondary)', marginBottom: '8px' }}>
-                  {pol.union_title || 'Union Cabinet Minister'}
-                </div>
-                {pol.union_portfolio && (
-                  <p style={{ color: '#475569', fontSize: '0.95rem', lineHeight: '1.5', margin: 0 }}>
-                    <strong>Central Ministries Handled:</strong> {pol.union_portfolio}
-                  </p>
-                )}
-              </section>
-            )}
-
-            {/* State Cabinet Portfolio Card */}
-            {pol.is_minister && !pol.is_union_minister && (
-              <section className="dashboard-section glass-panel" style={{ borderLeft: '4px solid var(--text-muted)', background: 'var(--bg-hover)' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-                  <Award size={20} color="var(--text-secondary)" />
-                  <h2 style={{ margin: 0, fontSize: '1.2rem', color: 'var(--text-primary)' }}>State Executive Office & Portfolio</h2>
-                </div>
-                <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '8px' }}>
-                  {pol.minister_title || 'Cabinet Minister of Karnataka'}
-                </div>
-                {pol.portfolio && (
-                  <p style={{ color: '#475569', fontSize: '0.95rem', lineHeight: '1.5', margin: 0 }}>
-                    <strong>Departments Handled:</strong> {pol.portfolio}
-                  </p>
-                )}
-              </section>
-            )}
-
-            {/* Official ECI Candidate Vote Share Visual Analytics */}
-            {pol.electoral_performance && (
-              <ElectoralVoteShareChart data={pol.electoral_performance} candidateName={name} lang={lang} />
-            )}
-
-            {/* Official Census Area & Religion Demographics Profile */}
-            {pol.area_demographics && (
-              <AreaDemographicsCard data={pol.area_demographics} lang={lang} />
-            )}
+            {/* Biography */}
+            <section className="dashboard-section glass-panel">
+              <h2>Biography</h2>
+              {bio ? (
+                <div className="bio-content"><p>{bio}</p></div>
+              ) : (
+                <p className="empty-state">No biography available yet.</p>
+              )}
+            </section>
 
             {/* Visual Electoral & Executive Career Timeline */}
             <section className="dashboard-section glass-panel">
@@ -433,42 +393,47 @@ export default async function PoliticianProfile({
               )}
             </section>
 
-            {/* Biography */}
-            <section className="dashboard-section glass-panel">
-              <h2>Biography</h2>
-              {bio ? (
-                <div className="bio-content"><p>{bio}</p></div>
-              ) : (
-                <p className="empty-state">No biography available yet.</p>
-              )}
-            </section>
-
-            {/* News */}
-            {pol.public_records && pol.public_records.length > 0 && (
-              <section className="dashboard-section glass-panel">
-                <h2>News & Public Records</h2>
-                <div className="records-list">
-                  {pol.public_records.map((record) => (
-                    <div key={record.id} className="record-card">
-                      <div className="record-header">
-                        <span className="record-type">{record.record_type_display}</span>
-                        <span className="record-date">{record.event_date || ''}</span>
-                      </div>
-                      <h3>{lang === 'kn' ? record.title_kn : record.title_en}</h3>
-                      <p>{lang === 'kn' ? record.summary_kn : record.summary_en}</p>
-                      {record.source_url && (
-                        <a href={record.source_url} target="_blank" rel="noopener noreferrer" className="source-link">
-                          Source →
-                        </a>
-                      )}
-                    </div>
-                  ))}
+            {/* Union Cabinet Portfolio Card */}
+            {pol.is_union_minister && (
+              <section className="dashboard-section glass-panel" style={{ borderLeft: '4px solid var(--text-muted)', background: 'var(--bg-hover)' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                  <Crown size={20} color="var(--text-secondary)" />
+                  <h2 style={{ margin: 0, fontSize: '1.2rem', color: 'var(--text-primary)' }}>Union Cabinet & Central Ministries</h2>
                 </div>
+                <div style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--text-secondary)', marginBottom: '8px' }}>
+                  {pol.union_title || 'Union Cabinet Minister'}
+                </div>
+                {pol.union_portfolio && (
+                  <p style={{ color: '#475569', fontSize: '0.95rem', lineHeight: '1.5', margin: 0 }}>
+                    <strong>Central Ministries Handled:</strong> {pol.union_portfolio}
+                  </p>
+                )}
               </section>
             )}
-          </div>
 
-          <div className="sidebar-column">
+            {/* State Cabinet Portfolio Card */}
+            {pol.is_minister && !pol.is_union_minister && (
+              <section className="dashboard-section glass-panel" style={{ borderLeft: '4px solid var(--text-muted)', background: 'var(--bg-hover)' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                  <Award size={20} color="var(--text-secondary)" />
+                  <h2 style={{ margin: 0, fontSize: '1.2rem', color: 'var(--text-primary)' }}>State Executive Office & Portfolio</h2>
+                </div>
+                <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '8px' }}>
+                  {pol.minister_title || 'Cabinet Minister of Karnataka'}
+                </div>
+                {pol.portfolio && (
+                  <p style={{ color: '#475569', fontSize: '0.95rem', lineHeight: '1.5', margin: 0 }}>
+                    <strong>Departments Handled:</strong> {pol.portfolio}
+                  </p>
+                )}
+              </section>
+            )}
+
+            {/* Official ECI Candidate Vote Share Visual Analytics */}
+            {pol.electoral_performance && (
+              <ElectoralVoteShareChart data={pol.electoral_performance} candidateName={name} lang={lang} />
+            )}
+
             {/* Financials with Visual Asset Progress Bars */}
             {pol.financial_declarations && pol.financial_declarations.length > 0 && (
               <section className="dashboard-section glass-panel">
@@ -520,7 +485,10 @@ export default async function PoliticianProfile({
             {/* Legal Records */}
             {pol.legal_records && pol.legal_records.length > 0 && (
               <section className="dashboard-section glass-panel">
-                <h2>Criminal Cases ({pol.legal_records.length})</h2>
+                <h2>Declared Legal Cases ({pol.legal_records.length})</h2>
+                <p style={{ fontSize: '0.8rem', fontStyle: 'italic', color: '#64748b', marginBottom: '16px', padding: '12px', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '6px' }}>
+                  Declared legal cases are based on election affidavit disclosures and do not by themselves establish guilt or conviction.
+                </p>
                 <div className="legal-list">
                   {pol.legal_records.map((record) => (
                     <div key={record.id} className="legal-card">
@@ -542,6 +510,49 @@ export default async function PoliticianProfile({
               </section>
             )}
 
+            {/* Analytics Suite */}
+            {intelligence && (
+              <>
+                <AnalyticsPanel
+                  data={intelligence}
+                  financials={pol.financial_declarations}
+                  career={pol.career_timeline}
+                />
+
+              </>
+            )}
+
+            {/* Official Census Area & Religion Demographics Profile */}
+            {pol.area_demographics && (
+              <AreaDemographicsCard data={pol.area_demographics} lang={lang} />
+            )}
+
+            {/* News */}
+            {pol.public_records && pol.public_records.length > 0 && (
+              <section className="dashboard-section glass-panel">
+                <h2>News & Public Records</h2>
+                <div className="records-list">
+                  {pol.public_records.map((record) => (
+                    <div key={record.id} className="record-card">
+                      <div className="record-header">
+                        <span className="record-type">{record.record_type_display}</span>
+                        <span className="record-date">{record.event_date || ''}</span>
+                      </div>
+                      <h3>{lang === 'kn' ? record.title_kn : record.title_en}</h3>
+                      <p>{lang === 'kn' ? record.summary_kn : record.summary_en}</p>
+                      {record.source_url && (
+                        <a href={record.source_url} target="_blank" rel="noopener noreferrer" className="source-link">
+                          Source →
+                        </a>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+          </div>
+
+          <div className="sidebar-column">
             {/* Social */}
             {pol.social_media && Object.values(pol.social_media).some(v => v) && (
               <section className="dashboard-section glass-panel">

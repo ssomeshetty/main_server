@@ -1,0 +1,26 @@
+{
+  "parity": [],
+  "hardcoding": [
+    {
+      "file": "frontend/app/[lang]/layout.tsx",
+      "line": 22,
+      "content": "all 224 State Assembly MLAs",
+      "issue": "Hardcoded counts that may drift (225 in DB)",
+      "type": "count_hardcoding"
+    },
+    {
+      "file": "frontend/app/[lang]/layout.tsx",
+      "line": 31,
+      "content": "DK Shivakumar net worth",
+      "issue": "Hardcoded politician name in SEO tags",
+      "type": "name_hardcoding"
+    },
+    {
+      "file": "frontend/app/[lang]/layout.tsx",
+      "line": 32,
+      "content": "Siddaramaiah MLA assets",
+      "issue": "Hardcoded politician name in SEO tags",
+      "type": "name_hardcoding"
+    }
+  ]
+}

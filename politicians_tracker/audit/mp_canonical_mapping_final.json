@@ -1,0 +1,322 @@
+[
+  {
+    "politician_id": 238,
+    "name": "B. Y. Raghavendra",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 83,
+    "name": "Basavaraj Bommai",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 241,
+    "name": "Captain Bricesh Chowta",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 246,
+    "name": "Dr. C. N. Manjunath",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 250,
+    "name": "Dr. K. Sudhakar",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 255,
+    "name": "Dr. Syed Naseer Hussain",
+    "house": "mp_rs",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 95,
+    "name": "E. Tukaram",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 232,
+    "name": "G. Kumar Naik",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 242,
+    "name": "Govind Karjol",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 254,
+    "name": "H. D. Deve Gowda",
+    "house": "mp_rs",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 157,
+    "name": "H. D. Kumaraswamy",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 228,
+    "name": "Jagadish Shettar",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 234,
+    "name": "K. Rajashekar Basavaraj Hitnal",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 239,
+    "name": "Kota Srinivas Poojary",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 251,
+    "name": "M. Mallesh Babu",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 253,
+    "name": "Mallikarjun Kharge",
+    "house": "mp_rs",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 252,
+    "name": "Nirmala Sitharaman",
+    "house": "mp_rs",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 229,
+    "name": "P. C. Gaddigoudar",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 248,
+    "name": "P. C. Mohan",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 237,
+    "name": "Prabha Mallikarjun",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 235,
+    "name": "Pralhad Joshi",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 227,
+    "name": "Priyanka Jarkiholi",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 231,
+    "name": "Radhakrishna Doddamani",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 230,
+    "name": "Ramesh Jigajinagi",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 233,
+    "name": "Sagar Khandre",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 247,
+    "name": "Shobha Karandlaje",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 240,
+    "name": "Shreyas M. Patel",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 245,
+    "name": "Sunil Bose",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 249,
+    "name": "Tejasvi Surya",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 243,
+    "name": "V. Somanna",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 236,
+    "name": "Vishveshwar Hegde Kageri",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  },
+  {
+    "politician_id": 244,
+    "name": "Yaduveer Krishnadatta Chamaraja Wadiyar",
+    "house": "mp_ls",
+    "canonical_mp_id": null,
+    "canonical_url": "",
+    "identity_verified": false,
+    "verification_source": "None",
+    "verification_notes": "Canonical ID not scraped dynamically. Remains empty for safety."
+  }
+]

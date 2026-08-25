@@ -1,0 +1,1544 @@
+[
+  {
+    "politician_id": 132,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 170,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 194,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 181,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 72,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 12,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 35,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 44,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 185,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 81,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 104,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 74,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 178,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 33,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 18,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 11,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 42,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 201,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 200,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 206,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 92,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 115,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 93,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 99,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 46,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 149,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 112,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 238,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 105,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 141,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 15,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 8,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 53,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 59,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 30,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 83,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 63,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 85,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 204,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 43,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 208,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 179,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 174,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 27,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 80,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 23,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 131,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 124,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 214,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 68,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 146,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 130,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 165,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 195,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 26,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 257,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 241,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 171,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 65,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 38,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 205,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 183,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 199,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 175,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 156,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 186,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 160,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 152,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 78,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 137,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 60,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 246,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 250,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 255,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 256,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 6,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 259,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 95,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 51,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 111,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 184,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 212,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 55,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 62,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 117,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 232,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 218,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 187,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 2,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 242,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 109,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 67,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 106,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 155,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 154,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 192,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 254,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 157,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 217,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 169,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 211,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 66,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 167,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 196,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 90,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 164,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 221,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 24,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 58,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 172,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 91,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 22,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 21,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 228,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 198,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 129,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 151,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 223,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 189,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 133,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 166,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 159,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 89,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 234,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 213,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 203,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 215,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 182,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 122,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 45,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 56,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 107,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 239,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 121,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 125,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 88,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 222,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 143,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 13,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 202,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 3,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 29,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 116,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 98,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 140,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 226,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 251,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 193,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 70,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 119,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 79,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 148,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 216,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 34,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 207,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 16,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 5,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 73,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 253,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 57,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 147,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 180,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 127,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 136,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 163,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 69,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 153,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 96,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 97,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 94,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 210,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 7,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 252,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 229,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 248,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 158,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 237,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 52,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 114,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 87,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 235,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 139,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 40,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 227,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 144,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 19,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 76,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 231,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 64,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 50,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 36,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 4,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 145,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 9,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 230,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 162,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 161,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 135,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 84,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 128,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 103,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 120,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 113,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 219,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 123,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 134,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 100,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 54,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 138,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 126,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 233,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 118,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 75,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 10,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 77,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 49,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 101,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 102,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 41,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 37,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 39,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 47,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 150,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 1,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 28,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 61,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 247,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 240,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 191,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 48,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 20,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 82,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 245,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 168,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 220,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 209,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 197,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 188,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 190,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 249,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 177,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 86,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 176,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 142,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 173,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 243,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 110,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 25,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 71,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 236,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 17,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 14,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 31,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 244,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 32,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 108,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  },
+  {
+    "politician_id": 258,
+    "engine_executed": true,
+    "has_analytics": true,
+    "has_entity_network": true
+  }
+]
