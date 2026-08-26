@@ -312,7 +312,7 @@ class MyNetaScraper(BaseScraper):
 
     def _extract_profession(self, soup: BeautifulSoup) -> Optional[str]:
         """Extract profession."""
-        prof_elem = soup.find(string=re.compile('Self\s*Occupation', re.I))
+        prof_elem = soup.find(string=re.compile(r'Self\s*Occupation', re.I))
         if prof_elem:
             parent = prof_elem.find_parent(['td', 'th', 'div', 'span'])
             if parent:

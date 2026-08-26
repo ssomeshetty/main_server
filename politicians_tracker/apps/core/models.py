@@ -1596,7 +1596,7 @@ class RawScrapedData(models.Model):
         # Partial indexes for common query patterns
         constraints = [
             models.CheckConstraint(
-                condition=models.Q(processing_attempts__gte=0),
+                check=models.Q(processing_attempts__gte=0),
                 name='non_negative_processing_attempts'
             ),
         ]
