@@ -9,6 +9,7 @@ __pycache__/
 .env.local
 .env.*.local
 venv/
+.venv/
 ENV/
 
 # IDE
@@ -28,6 +29,7 @@ scratch/
 logs/
 db.sqlite3
 db.sqlite3-journal
+staticfiles/
 
 # Test artifacts
 .coverage

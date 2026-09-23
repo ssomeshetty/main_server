@@ -14,7 +14,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     for (const route of routes) {
       staticUrls.push({
         url: `${SITE_URL}/${lang}${route}`,
-        lastModified: new Date(),
         changeFrequency: route === '' ? 'daily' : 'weekly',
         priority: route === '' ? 1.0 : 0.8,
         alternates: {
@@ -36,7 +35,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     for (const lang of locales) {
       politicianUrls.push({
         url: `${SITE_URL}/${lang}/politicians/${slug}`,
-        lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.9,
         alternates: {

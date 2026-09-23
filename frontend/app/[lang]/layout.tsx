@@ -16,10 +16,10 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Karnataka Legislative & Parliamentary Tracker | Verified Representative Database",
+    default: "Karnataka Legislative & Parliamentary Tracker | Public Representative Database",
     template: "%s | Karnataka Legislative Tracker",
   },
-  description: "Official public database & asset intelligence for all 224 State Assembly MLAs and 28 Lok Sabha MPs representing Karnataka. Sworn affidavits, financial declarations, criminal case records & portfolio disclosures.",
+  description: "Public database and derived analysis for Karnataka MLAs and MPs, including sworn affidavits, financial declarations, legal records, and portfolio disclosures.",
   keywords: [
     "Karnataka Politicians",
     "Karnataka MLAs",
@@ -48,8 +48,8 @@ export const metadata: Metadata = {
     alternateLocale: ["kn_IN"],
     url: SITE_URL,
     siteName: "Karnataka Legislative Tracker",
-    title: "Karnataka Legislative & Parliamentary Tracker | Official Database",
-    description: "Verified public records, asset disclosures, criminal records, and portfolios of Karnataka MLAs and MPs.",
+    title: "Karnataka Legislative & Parliamentary Tracker | Public Database",
+    description: "Public records, asset disclosures, legal records, and portfolios of Karnataka MLAs and MPs.",
     images: [
       {
         url: `${SITE_URL}/og-image.jpg`,
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Karnataka Legislative & Parliamentary Tracker",
-    description: "Verified public records & financial declarations of all 224 Karnataka MLAs & 28 MPs.",
+    description: "Public records and financial declarations of Karnataka MLAs and MPs.",
     images: [`${SITE_URL}/og-image.jpg`],
   },
   robots: {
@@ -91,14 +91,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang={params.lang}>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
       <body>
         <Navbar lang={params.lang} />
         <main>{children}</main>

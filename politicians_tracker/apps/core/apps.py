@@ -9,7 +9,7 @@ class CoreConfig(AppConfig):
     for the main functionality of the public tracker.
     """
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'politicians_tracker.apps.core'
+    name = 'apps.core'
     verbose_name = 'Karnataka Politicians Tracker Core'
     
     def ready(self):

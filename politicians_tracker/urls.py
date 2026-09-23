@@ -18,7 +18,7 @@ urlpatterns = [
     path(f'{ADMIN_URL_PREFIX}/', admin.site.urls),
 
     # API
-    path('api/v1/', include('politicians_tracker.apps.core.urls')),
+    path('api/v1/', include('apps.core.urls')),
 
     # Root — returns API info as JSON (no template dependency)
     path('', lambda request: JsonResponse({

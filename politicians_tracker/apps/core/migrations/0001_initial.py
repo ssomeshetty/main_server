@@ -506,6 +506,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AddConstraint(
             model_name='rawscrapeddata',
-            constraint=models.CheckConstraint(condition=models.Q(('processing_attempts__gte', 0)), name='non_negative_processing_attempts'),
+            constraint=models.CheckConstraint(check=models.Q(('processing_attempts__gte', 0)), name='non_negative_processing_attempts'),
         ),
     ]

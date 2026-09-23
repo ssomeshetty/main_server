@@ -1071,7 +1071,7 @@ class PoliticianByConstituencyViewSet(ReadOnlyViewSetMixin, viewsets.ReadOnlyMod
 
 from rest_framework.views import APIView
 from rest_framework import status as drf_status
-from politicians_tracker.apps.core.intelligence_engine import PalantirIntelligenceEngine
+from .intelligence_engine import PalantirIntelligenceEngine
 
 
 class PoliticianIntelligenceView(APIView):
@@ -1145,7 +1145,7 @@ class NetworkGraphView(APIView):
 # =============================================================================
 
 from django.http import HttpResponse
-from politicians_tracker.apps.core.chart_generator import generate_demographic_donut_chart, generate_electoral_bar_chart
+from .chart_generator import generate_demographic_donut_chart, generate_electoral_bar_chart
 
 
 class DemographicChartView(APIView):

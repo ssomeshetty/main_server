@@ -1,4 +1,4 @@
-/* Fonts loaded via next/font in layout.tsx — do not duplicate @import here */
+/* Keep font loading local to avoid a render-blocking third-party request. */
 
 :root {
   --bg-main: #f8fafc;
@@ -38,7 +38,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: 'Inter', 'Noto Sans Kannada', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Segoe UI', 'Nirmala UI', sans-serif;
   background-color: var(--bg-main);
   color: var(--text-primary);
   line-height: 1.5;
@@ -548,6 +548,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 380px) {
+  .navbar-container {
+    gap: 8px !important;
+  }
+  .mobile-actions {
+    gap: 6px;
+  }
+  .mobile-actions .lang-switcher {
+    max-width: 64px;
+    overflow: hidden;
+  }
+  .mobile-actions .lang-btn {
+    padding: 4px 6px;
+    font-size: 0.7rem;
+  }
+  .logo-title {
+    max-width: 118px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.85rem !important;
+  }
+  .logo-subtitle {
+    display: none;
+  }
   .stat-grid {
     grid-template-columns: 1fr;
   }

@@ -7,4 +7,7 @@ const dictionaries = {
   kn: () => import('./dictionaries/kn.json').then((module) => module.default),
 };
 
-export const getDictionary = async (locale: Locale) => dictionaries[locale]();
+export const getDictionary = async (locale: Locale) => {
+  const loader = dictionaries[locale] ?? dictionaries.en;
+  return loader();
+};

@@ -34,7 +34,7 @@ export async function generateMetadata({
   if (!pol) {
     return {
       title: 'Politician Not Found | Karnataka Legislative Tracker',
-      description: 'The requested politician profile could not be located in the official database.',
+      description: 'The requested politician profile could not be located in the public tracker.',
     };
   }
 
@@ -59,7 +59,7 @@ export async function generateMetadata({
 
   const description = isKn
     ? `${name} (${constStr} ಕ್ಷೇತ್ರ). ಒಟ್ಟು ಆಸ್ತಿ: ₹${assets ? (Number(assets.total_assets) / 10000000).toFixed(1) : 0} ಕೋಟಿ. ಸ್ವೀಕೃತ ಶಪಥಪತ್ರಗಳು, ಕ್ರಿಮಿನಲ್ ಪ್ರಕರಣಗಳು, ಮತ್ತು ಸಚಿವರ ಮಾಹಿತಿ.`
-    : `Verified public profile of ${name}, ${roleStr} representing ${constStr}${partyStr}. Declared assets: ₹${assets ? (Number(assets.total_assets) / 10000000).toFixed(1) : 0} Cr, liabilities, criminal records, and executive career timeline.`;
+    : `Public profile of ${name}, ${roleStr} representing ${constStr}${partyStr}. Declared assets: ₹${assets ? (Number(assets.total_assets) / 10000000).toFixed(1) : 0} Cr, liabilities, legal records, and executive career timeline.`;
 
   return {
     title,

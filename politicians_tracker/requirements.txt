@@ -30,7 +30,7 @@ pandas>=2.0.0
 
 # Testing
 coverage==7.3.2  # For test coverage
-factory-boy==3.2.3  # For test data factories
+factory-boy==3.3.3  # For test data factories
 
 # Security
 django-cors-headers==4.3.0  # For CORS support

@@ -18,7 +18,7 @@ export async function generateMetadata({
 
   const description = isKn
     ? 'ಕರ್ನಾಟಕದ 224 ವಿಧಾನಸಭಾ ಶಾಸಕರು ಮತ್ತು 28 ಲೋಕಸಭಾ ಸಂಸದರ ಸಮಗ್ರ ಸಾರ್ವಜನಿಕ ಮಾಹಿತಿ. ಅಧಿಕೃತ ಆಸ್ತಿ ವಿವರಗಳು, ಶೈಕ್ಷಣಿಕ ಮಾಹಿತಿಗಳು ಮತ್ತು ಕ್ರಿಮಿನಲ್ ಪ್ರಕರಣಗಳು.'
-    : 'Official public records and verified disclosures for all 224 Karnataka MLAs and 28 Lok Sabha Members of Parliament. Search sworn affidavits, asset declarations, and portfolios.';
+    : 'Public records and declared disclosures for all 224 Karnataka MLAs and 28 Lok Sabha Members of Parliament. Search sworn affidavits, asset declarations, and portfolios.';
 
   return {
     title,
@@ -71,7 +71,7 @@ export default async function Home({
 
   const jsonLdOrg = {
     '@context': 'https://schema.org',
-    '@type': 'GovernmentOrganization',
+    '@type': 'Organization',
     name: 'Karnataka Legislative Assembly & Parliamentary Information System',
     alternateName: 'Karnataka Legislative Tracker',
     url: `${SITE_URL}/${lang}`,
@@ -103,7 +103,7 @@ export default async function Home({
           <p style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.6', marginBottom: '32px', fontWeight: 400 }}>
             {lang === 'kn'
               ? <>ಕರ್ನಾಟಕವನ್ನು ಪ್ರತಿನಿಧಿಸುವ <strong>224 ವಿಧಾನಸಭಾ ಶಾಸಕರು</strong> ಮತ್ತು <strong>28 ಲೋಕಸಭಾ ಸಂಸದರ</strong> ಅಧಿಕೃತ ಆಸ್ತಿ ಘೋಷಣೆಗಳು, ಶಪಥಪತ್ರಗಳು ಮತ್ತು ಚುನಾವಣಾ ಮಾಹಿತಿ.</>
-              : <>Verified financial affidavits, asset disclosures, and electoral background records for <strong>224 Assembly MLAs</strong> and <strong>28 Lok Sabha MPs</strong> representing Karnataka.</>}
+              : <>Financial affidavits, asset disclosures, and electoral background records for <strong>224 Assembly MLAs</strong> and <strong>28 Lok Sabha MPs</strong> representing Karnataka.</>}
           </p>
 
           {/* Clean High-Contrast Search Bar */}

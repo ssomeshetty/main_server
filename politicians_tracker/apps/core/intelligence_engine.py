@@ -11,7 +11,7 @@ Executes multi-dimensional analytical algorithms over official government datase
 from decimal import Decimal
 import math
 from typing import Dict, List, Any
-from politicians_tracker.apps.core.models import Politician, FinancialDeclaration, ElectionResult, LegalRecord, PublicRecord
+from .models import Politician, FinancialDeclaration, ElectionResult, LegalRecord, PublicRecord
 
 
 class PalantirIntelligenceEngine:
@@ -31,53 +31,63 @@ class PalantirIntelligenceEngine:
         FAGATE: Financial Asset Growth & Anomaly Trajectory Engine
         Calculates CAGR, net worth growth delta, leverage ratio, and flags asset anomalies.
         """
-        declarations = list(FinancialDeclaration.objects.filter(politician=self.politician).order_by('declaration_year'))
+        declarations = list(
+            FinancialDeclaration.objects.filter(politician=self.politician)
+            .order_by('declaration_year', 'declaration_type', 'id')
+        )
         
         if not declarations:
-            # Fallback estimation if no detailed declaration objects exist yet
-            net_worth = float(getattr(self.politician, 'net_worth', 50000000) or 50000000)
             return {
                 'has_data': False,
-                'current_net_worth': net_worth,
-                'cagr_pct': 12.5,
-                'asset_growth_factor': '1.8x',
-                'leverage_ratio_pct': 5.2,
-                'anomaly_rating': 'LOW',
-                'anomaly_confidence': 'NORMAL',
-                'risk_badge_color': '#10b981',
-                'insight_text': 'Financial declarations align with standard asset growth trajectories.'
+                'current_net_worth': None,
+                'total_assets': None,
+                'total_liabilities': None,
+                'cagr_pct': None,
+                'asset_growth_factor': None,
+                'leverage_ratio_pct': None,
+                'anomaly_rating': None,
+                'anomaly_confidence': 'NO_DECLARATIONS',
+                'risk_badge_color': '#64748b',
+                'insight_text': 'No financial declarations are available in the tracked sources.',
+                'declaration_count': 0,
+                'data_status': 'NO_RECORD_FOUND',
             }
 
         latest = declarations[-1]
         earliest = declarations[0]
         
-        latest_assets = float(latest.total_assets or 0)
-        latest_liabilities = float(latest.total_liabilities or 0)
-        earliest_assets = float(earliest.total_assets or latest_assets)
-        
-        years_diff = max(1, (latest.declaration_year or 2024) - (earliest.declaration_year or 2019))
-        
-        if earliest_assets > 0 and latest_assets >= earliest_assets and len(declarations) > 1:
-            cagr = (math.pow(latest_assets / earliest_assets, 1.0 / years_diff) - 1.0) * 100.0
-            growth_factor = round(latest_assets / earliest_assets, 1)
-        else:
-            cagr = 14.2
-            growth_factor = 1.6
+        latest_assets = latest.total_assets
+        latest_liabilities = latest.total_liabilities
+        earliest_assets = earliest.total_assets
+        years_diff = latest.declaration_year - earliest.declaration_year
 
-        leverage_ratio = (latest_liabilities / latest_assets * 100.0) if latest_assets > 0 else 0.0
+        cagr = None
+        growth_factor = None
+        if len(declarations) > 1 and years_diff > 0 and earliest_assets > 0:
+            growth_factor = latest_assets / earliest_assets
+            cagr = (growth_factor ** (Decimal('1') / Decimal(years_diff)) - 1) * 100
+
+        leverage_ratio = None
+        if latest_assets > 0:
+            leverage_ratio = latest_liabilities / latest_assets * 100
 
         # Anomaly scoring algorithm
-        if cagr > 150.0 or growth_factor > 5.0:
+        if cagr is None:
+            anomaly_rating = None
+            anomaly_confidence = 'INSUFFICIENT_COMPARABLE_HISTORY'
+            risk_color = '#64748b'
+            insight = 'Comparable declarations are insufficient for a growth-rate calculation.'
+        elif cagr > 150 or growth_factor > 5:
             anomaly_rating = 'HIGH'
             anomaly_confidence = 'ANOMALY DETECTED'
             risk_color = '#ef4444'
             insight = f'High asset growth surge detected ({growth_factor}x expansion in {years_diff} years). Requires verified revenue audit.'
-        elif cagr > 60.0 or growth_factor > 2.5:
+        elif cagr > 60 or growth_factor > Decimal('2.5'):
             anomaly_rating = 'ELEVATED'
             anomaly_confidence = 'ELEVATED EXPANSION'
             risk_color = '#f59e0b'
             insight = f'Elevated asset growth trajectory ({growth_factor}x growth). Above average net worth expansion rate.'
-        elif cagr > 35.0:
+        elif cagr > 35:
             anomaly_rating = 'MODERATE'
             anomaly_confidence = 'MODERATE'
             risk_color = '#3b82f6'
@@ -90,17 +100,18 @@ class PalantirIntelligenceEngine:
 
         return {
             'has_data': True,
-            'current_net_worth': float(latest.net_worth or (latest_assets - latest_liabilities)),
-            'total_assets': latest_assets,
-            'total_liabilities': latest_liabilities,
-            'cagr_pct': round(cagr, 1),
-            'asset_growth_factor': f'{growth_factor}x',
-            'leverage_ratio_pct': round(leverage_ratio, 1),
+            'current_net_worth': float(latest.net_worth),
+            'total_assets': float(latest_assets),
+            'total_liabilities': float(latest_liabilities),
+            'cagr_pct': round(float(cagr), 1) if cagr is not None else None,
+            'asset_growth_factor': f'{round(float(growth_factor), 1)}x' if growth_factor is not None else None,
+            'leverage_ratio_pct': round(float(leverage_ratio), 1) if leverage_ratio is not None else None,
             'anomaly_rating': anomaly_rating,
             'anomaly_confidence': anomaly_confidence,
             'risk_badge_color': risk_color,
             'insight_text': insight,
-            'declaration_count': len(declarations)
+            'declaration_count': len(declarations),
+            'data_status': 'CALCULATED',
         }
 
     def analyze_electoral_vulnerability(self) -> Dict[str, Any]:

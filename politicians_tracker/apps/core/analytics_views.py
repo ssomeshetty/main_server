@@ -6,7 +6,7 @@ Optimized: All aggregation done at DB level (no Python-side loops loading all ro
 Cached for 30 minutes since aggregate data changes infrequently.
 """
 from decimal import Decimal
-from django.db.models import Count, Sum, Avg, Case, When, Value, IntegerField
+from django.db.models import Count, Sum, Avg, Case, When, Value, IntegerField, OuterRef, Subquery
 from django.core.cache import cache
 from django.conf import settings
 from rest_framework.views import APIView
@@ -50,9 +50,14 @@ class AnalyticsAPIView(APIView):
         avg_age_val = summary_stats['avg_age'] or 55.0
 
         # Financial aggregates (single query)
-        fin_stats = FinancialDeclaration.objects.filter(
-            politician__is_active=True
-        ).aggregate(
+        latest_declaration = FinancialDeclaration.objects.filter(
+            politician=OuterRef('politician_id'),
+        ).order_by('-declaration_year', '-declaration_date', '-id')
+        current_financials = FinancialDeclaration.objects.filter(
+            politician__is_active=True,
+            id=Subquery(latest_declaration.values('id')[:1]),
+        )
+        fin_stats = current_financials.aggregate(
             total_assets=Sum('total_assets'),
             total_liabilities=Sum('total_liabilities'),
         )
@@ -65,7 +70,7 @@ class AnalyticsAPIView(APIView):
 
         # 2. Top 10 Richest (single query with select_related)
         top_richest = self._build_ranking(
-            FinancialDeclaration.objects.select_related(
+            current_financials.select_related(
                 'politician', 'politician__current_party',
                 'politician__current_constituency'
             ).filter(politician__is_active=True).order_by('-total_assets')[:10],
@@ -74,7 +79,7 @@ class AnalyticsAPIView(APIView):
 
         # 3. Top 10 Most Indebted
         top_indebted = self._build_ranking(
-            FinancialDeclaration.objects.select_related(
+            current_financials.select_related(
                 'politician', 'politician__current_party',
                 'politician__current_constituency'
             ).filter(politician__is_active=True).order_by('-total_liabilities')[:10],

@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: { lang: Locale } })
     : 'Karnataka Cabinet Ministers & Portfolios | Executive Ministry Directory | Legislative Tracker';
   const description = isKn
     ? 'ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಮುಖ್ಯಮಂತ್ರಿಗಳು, ಉಪ ಮುಖ್ಯಮಂತ್ರಿಗಳು ಮತ್ತು ಸಚಿವರ ಅಧಿಕೃತ ಸಚಿವಾಲಯಗಳು, ಆಸ್ತಿ ವಿವರಗಳು ಮತ್ತು ಜವಾಬ್ದಾರಿಗಳು.'
-    : 'Official directory of Karnataka Cabinet Ministers, portfolio allocations, executive responsibilities, and public accountability metrics verified from official government records.';
+    : 'Public directory of Karnataka Cabinet Ministers, portfolio allocations, executive responsibilities, and public accountability metrics sourced from cited records.';
 
   return {
     title,
@@ -99,7 +99,7 @@ export default async function CabinetPage({ params }: { params: { lang: Locale }
                   {isKn ? 'ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಸಚಿವ ಸಂಪುಟ' : 'Karnataka Executive Cabinet & Portfolios'}
                 </h1>
                 <p style={{ fontSize: '0.88rem', color: '#64748b', margin: '3px 0 0 0' }}>
-                  {isKn ? 'ಸರ್ಕಾರದ ಪ್ರಮುಖ ಸಚಿವಾಲಯಗಳು ಮತ್ತು ಸಚಿವರ ಅಧಿಕೃತ ಜವಾಬ್ದಾರಿಗಳ ಪಟ್ಟಿ' : 'Official Government Ministry Directory & Executive Department Allocations'}
+                  {isKn ? 'ಸರ್ಕಾರದ ಪ್ರಮುಖ ಸಚಿವಾಲಯಗಳು ಮತ್ತು ಸಚಿವರ ಜವಾಬ್ದಾರಿಗಳ ಪಟ್ಟಿ' : 'Government Ministry Directory & Executive Department Allocations'}
                 </p>
               </div>
             </div>
@@ -107,7 +107,7 @@ export default async function CabinetPage({ params }: { params: { lang: Locale }
             <p style={{ fontSize: '0.92rem', color: '#334155', lineHeight: '1.6', maxWidth: '820px', marginTop: '12px', marginBottom: 0 }}>
               {isKn
                 ? 'ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಮುಖ್ಯಮಂತ್ರಿಗಳು, ಉಪ ಮುಖ್ಯಮಂತ್ರಿಗಳು, ಸಂಪುಟ ಸಚಿವರು ಮತ್ತು ಕೇಂದ್ರ ಸಚಿವರ ಅಧಿಕೃತ ಸಚಿವಾಲಯಗಳು. ಸಾರ್ವಜನಿಕ ಸೇವೆಗಳು, ಮೂಲಸೌಕರ್ಯ, ಕೃಷಿ, ಇಂಧನ ಮತ್ತು ಕಂದಾಯ ಇಲಾಖೆಗಳನ್ನು ನಿರ್ವಹಿಸುವ ನಾಯಕರ ವಿವರ ಇಲ್ಲಿದೆ.'
-                : 'Explore executive government leadership in Karnataka. View official portfolio allocations, department responsibilities, public records, and declared assets for Cabinet Ministers and Executive Representatives.'}
+                : 'Explore executive government leadership in Karnataka. View cited portfolio allocations, department responsibilities, public records, and declared assets for Cabinet Ministers and Executive Representatives.'}
             </p>
           </div>
 
@@ -127,7 +127,7 @@ export default async function CabinetPage({ params }: { params: { lang: Locale }
               }}
             >
               <ShieldCheck size={16} />
-              {isKn ? 'ಅಧಿಕೃತ ಸರ್ಕಾರಿ ದಾಖಲೆಗಳು' : 'VERIFIED GOVERNMENT RECORDS'}
+              {isKn ? 'ಮೂಲ ಉಲ್ಲೇಖಿತ ಸರ್ಕಾರಿ ದಾಖಲೆಗಳು' : 'CITED GOVERNMENT RECORDS'}
             </span>
 
             <span style={{ fontSize: '0.78rem', color: '#64748b' }}>

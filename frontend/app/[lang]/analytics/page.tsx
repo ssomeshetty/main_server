@@ -14,7 +14,7 @@ export async function generateMetadata({
 
   const title = isKn
     ? 'ಕರ್ನಾಟಕ ಶಾಸಕಾಂಗ ಅಂಕಿ-ಅಂಶಗಳು ಮತ್ತು ಶಾಸಕರ ಒಟ್ಟು ಆಸ್ತಿ ಆಡಿಟ್'
-    : 'Karnataka Assembly Analytics & Wealth Leaderboard | Assets & Demographics Audit';
+    : 'Karnataka Assembly Analytics & Wealth Leaderboard | Assets & Demographics';
 
   const description = isKn
     ? 'ಕರ್ನಾಟಕದ ಶಾಸಕರ ಒಟ್ಟು ಆಸ್ತಿ, ಸಾಲಗಳು, ಪಕ್ಷಗಳ ಸೀಟುಗಳ ಹಂಚಿಕೆ, ಮತ್ತು ವಯೋಮಾನದ ಅಂಕಿ-ಅಂಶ ವಿಶ್ಲೇಷಣೆ.'
@@ -78,7 +78,7 @@ export default async function AnalyticsPage({
     url: `${SITE_URL}/${lang}/analytics`,
     license: 'https://creativecommons.org/licenses/by/4.0/',
     provider: {
-      '@type': 'GovernmentOrganization',
+      '@type': 'Organization',
       name: 'Karnataka Legislative Tracker',
     },
   };

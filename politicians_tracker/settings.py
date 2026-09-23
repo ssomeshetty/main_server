@@ -25,23 +25,18 @@ if not _secret_key and not DEBUG:
     )
 SECRET_KEY = _secret_key or 'dev-only-insecure-key-do-not-use-in-production'
 
-# ALLOWED_HOSTS — env var + known production domains
+# ALLOWED_HOSTS — supplied by the deployment environment.  Do not ship an
+# implicit allow-list of public domains: it easily becomes stale and makes a
+# copied deployment answer for somebody else's host name.
 _env_hosts = os.environ.get('DJANGO_ALLOWED_HOSTS', '')
 _env_host_list = [h.strip() for h in _env_hosts.split(',') if h.strip()] if _env_hosts else []
-ALLOWED_HOSTS = list(set(_env_host_list + [
-    'localhost',
-    '127.0.0.1',
-    'api.karnatakapoliticians.in',
-    'www.karnatakapoliticians.in',
-    'karnatakapoliticians.vercel.app',
-]))
+if not DEBUG and not _env_host_list:
+    raise RuntimeError('DJANGO_ALLOWED_HOSTS is required in production.')
+ALLOWED_HOSTS = _env_host_list or ['localhost', '127.0.0.1', 'host.docker.internal']
 
 # CSRF trusted origins (required since Django 4.0 for HTTPS)
-CSRF_TRUSTED_ORIGINS = [
-    'https://api.karnatakapoliticians.in',
-    'https://www.karnatakapoliticians.in',
-    'https://karnatakapoliticians.vercel.app',
-]
+_csrf_origins = os.environ.get('DJANGO_CSRF_TRUSTED_ORIGINS', '')
+CSRF_TRUSTED_ORIGINS = [origin.strip() for origin in _csrf_origins.split(',') if origin.strip()]
 
 # Security middleware settings
 SECURE_BROWSER_XSS_FILTER = True  # Enable XSS protection header
@@ -89,7 +84,7 @@ INSTALLED_APPS = [
     'corsheaders',  # CORS support
     
     # Local apps
-    'politicians_tracker.apps.core',
+    'apps.core',
 ]
 
 MIDDLEWARE = [
@@ -100,8 +95,8 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 
     # Request sanitization and size limiting (before any processing)
-    'politicians_tracker.apps.core.middleware.RequestSanitizationMiddleware',
-    'politicians_tracker.apps.core.middleware.RequestSizeLimitMiddleware',
+    'apps.core.middleware.RequestSanitizationMiddleware',
+    'apps.core.middleware.RequestSizeLimitMiddleware',
 
     # GZip compression (~70% bandwidth savings for JSON responses)
     'django.middleware.gzip.GZipMiddleware',
@@ -119,16 +114,16 @@ MIDDLEWARE = [
     'django.middleware.locale.LocaleMiddleware',
 
     # Read-only enforcement (after auth so admin bypasses this)
-    'politicians_tracker.apps.core.middleware.ReadOnlyModeMiddleware',
+    'apps.core.middleware.ReadOnlyModeMiddleware',
 
     # Language detection for bilingual API
-    'politicians_tracker.apps.core.middleware.LanguageDetectionMiddleware',
+    'apps.core.middleware.LanguageDetectionMiddleware',
 
     # Security response headers (last — adds headers to all responses)
-    'politicians_tracker.apps.core.middleware.SecurityHeadersMiddleware',
+    'apps.core.middleware.SecurityHeadersMiddleware',
 ]
 
-ROOT_URLCONF = 'politicians_tracker.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
@@ -146,17 +141,17 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'politicians_tracker.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 # =============================================================================
 # CORS CONFIGURATION
 # =============================================================================
-# Allow only your Next.js frontend domain
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',  # Next.js local development
-    'http://127.0.0.1:3000',
-    'https://karnatakapoliticians.vercel.app',  # Vercel production
-]
+# Allow only explicitly configured browser origins.  The production compose
+# stack proxies the API through the same origin, so CORS is normally unused.
+_cors_origins = os.environ.get('CORS_ALLOWED_ORIGINS', '')
+CORS_ALLOWED_ORIGINS = [origin.strip() for origin in _cors_origins.split(',') if origin.strip()]
+if DEBUG and not CORS_ALLOWED_ORIGINS:
+    CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000']
 
 # Restrict methods to safe read-only methods only
 CORS_ALLOW_METHODS = [
@@ -193,9 +188,7 @@ CORS_EXPOSE_HEADERS = [
 CORS_PREFLIGHT_MAX_AGE = 86400  # 24 hours
 
 # Regex patterns for Vercel branch previews (escaped properly)
-CORS_ALLOWED_ORIGIN_REGEXES = [
-    r'^https://karnatakapoliticians-git-[a-zA-Z0-9_-]+\.vercel\.app$',
-]
+CORS_ALLOWED_ORIGIN_REGEXES = []
 
 # =============================================================================
 # Database
@@ -358,7 +351,7 @@ REST_FRAMEWORK = {
     # ==========================================================================
     # PAGINATION & RENDERING
     # ==========================================================================
-    'DEFAULT_PAGINATION_CLASS': 'politicians_tracker.apps.core.pagination.CustomCursorPagination',
+    'DEFAULT_PAGINATION_CLASS': 'apps.core.pagination.CustomCursorPagination',
     'PAGE_SIZE': 20,
     
     # Rendering
@@ -383,7 +376,7 @@ REST_FRAMEWORK = {
     # ==========================================================================
     # EXCEPTION HANDLING
     # ==========================================================================
-    'EXCEPTION_HANDLER': 'politicians_tracker.apps.core.exceptions.custom_exception_handler',
+    'EXCEPTION_HANDLER': 'apps.core.exceptions.custom_exception_handler',
 }
 
 # =============================================================================
@@ -507,3 +500,13 @@ if 'test' in sys.argv:
     SESSION_COOKIE_SECURE = False
     CSRF_COOKIE_SECURE = False
     REST_FRAMEWORK['DEFAULT_THROTTLE_CLASSES'] = []
+    CACHES = {
+        'default': {
+            'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+            'LOCATION': 'politicians-tracker-tests',
+        },
+        'sessions': {
+            'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+            'LOCATION': 'politicians-tracker-test-sessions',
+        },
+    }

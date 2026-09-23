@@ -4,7 +4,10 @@
 import { Locale } from './dictionary';
 
 // Configuration
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
+const API_BASE_URL =
+  typeof window === 'undefined'
+    ? process.env.INTERNAL_API_URL || process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1'
+    : process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
 
 // Cache configuration
 const CACHE_TTL = 60 * 60; // 1 hour (matching ISR revalidate time)
@@ -176,10 +179,11 @@ export async function fetchFinancialDeclarations(
   lang: Locale
 ): Promise<FinancialDeclaration[]> {
   try {
-    return apiClient.get<FinancialDeclaration[]>(
+    const data = await apiClient.get<PaginatedResponse<FinancialDeclaration>>(
       `/financial-declarations/?politician=${politicianId}`,
       { lang }
     );
+    return data.results || [];
   } catch (error) {
     console.error('Error fetching financial declarations:', error);
     return [];
@@ -194,10 +198,11 @@ export async function fetchLegalRecords(
   lang: Locale
 ): Promise<LegalRecord[]> {
   try {
-    return apiClient.get<LegalRecord[]>(
+    const data = await apiClient.get<PaginatedResponse<LegalRecord>>(
       `/legal-records/?politician=${politicianId}`,
       { lang }
     );
+    return data.results || [];
   } catch (error) {
     console.error('Error fetching legal records:', error);
     return [];
@@ -213,10 +218,11 @@ export async function fetchPublicRecords(
   limit: number = 20
 ): Promise<PublicRecord[]> {
   try {
-    return apiClient.get<PublicRecord[]>(
-      `/public-records/?politician=${politicianId}&limit=${limit}`,
+    const data = await apiClient.get<PaginatedResponse<PublicRecord>>(
+      `/public-records/?politician=${politicianId}&page_size=${limit}`,
       { lang }
     );
+    return data.results || [];
   } catch (error) {
     console.error('Error fetching public records:', error);
     return [];
@@ -263,6 +269,12 @@ export async function fetchConstituencies(
 // =============================================================================
 // TYPE DEFINITIONS
 // =============================================================================
+
+interface PaginatedResponse<T> {
+  results: T[];
+  next: string | null;
+  previous: string | null;
+}
 
 export interface PoliticianSummary {
   id: number;
@@ -402,6 +414,10 @@ export interface FinancialDeclaration {
   declaration_type: string;
   declaration_date: string | null;
   declaration_url: string | null;
+  source_organization: string;
+  source_retrieved_at: string | null;
+  verification_status: string;
+  verification_notes: string;
   total_assets: number;
   total_liabilities: number;
   net_worth: number;

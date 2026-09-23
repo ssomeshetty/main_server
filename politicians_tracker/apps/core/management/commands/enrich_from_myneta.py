@@ -206,7 +206,9 @@ class Command(BaseCommand):
                         'total_assets': assets,
                         'total_liabilities': liabilities,
                         'declaration_url': candidate_url,
-                        'is_verified': True
+                        'is_verified': False,
+                        'verification_status': 'scraped',
+                        'source_organization': 'MyNeta / ADR',
                     }
                 )
                 

@@ -48,7 +48,7 @@ export default function NavbarClient({ lang, dictNav, searchPlaceholder }: Navba
                 {isKn ? 'ಕರ್ನಾಟಕ ಶಾಸಕರ ಟ್ರ್ಯಾಕರ್' : 'Karnataka Legislative Tracker'}
               </span>
               <span className="logo-subtitle" style={{ fontSize: '0.7rem', color: '#64748b', fontWeight: 600 }}>
-                {isKn ? 'ಶಾಸಕರು & ಸಂಸದರ ಅಧಿಕೃತ ಮಾಹಿತಿ' : 'Verified Public Directory'}
+                {isKn ? 'ಶಾಸಕರು & ಸಂಸದರ ಸಾರ್ವಜನಿಕ ಮಾಹಿತಿ' : 'Public Representative Directory'}
               </span>
             </div>
           </Link>

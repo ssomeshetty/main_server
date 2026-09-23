@@ -789,6 +789,34 @@ class FinancialDeclaration(models.Model):
         blank=True,
         verbose_name=_('Declaration URL')
     )
+    source_organization = models.CharField(
+        max_length=255,
+        blank=True,
+        verbose_name=_('Source Organization')
+    )
+    source_retrieved_at = models.DateTimeField(
+        null=True,
+        blank=True,
+        verbose_name=_('Source Retrieved At')
+    )
+    verification_status = models.CharField(
+        max_length=20,
+        choices=[
+            ('unknown', _('Unknown')),
+            ('scraped', _('Scraped')),
+            ('validated', _('Validated')),
+            ('human_verified', _('Human Verified')),
+            ('stale', _('Stale')),
+            ('rejected', _('Rejected')),
+        ],
+        default='unknown',
+        db_index=True,
+        verbose_name=_('Verification Status')
+    )
+    verification_notes = models.TextField(
+        blank=True,
+        verbose_name=_('Verification Notes')
+    )
     notes = models.TextField(
         blank=True,
         verbose_name=_('Notes')
@@ -1596,7 +1624,7 @@ class RawScrapedData(models.Model):
         # Partial indexes for common query patterns
         constraints = [
             models.CheckConstraint(
-                condition=models.Q(processing_attempts__gte=0),
+                check=models.Q(processing_attempts__gte=0),
                 name='non_negative_processing_attempts'
             ),
         ]

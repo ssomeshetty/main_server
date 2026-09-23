@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-    {name = "Team Karnataka", email = "team@karnataka Politicians tracker.example.com"}
+    {name = "Team Karnataka", email = "team@karnatakapoliticians.example.com"}
 ]
 
 dependencies = [
@@ -44,7 +44,7 @@ Issues = "https://github.com/yourusername/karnataka-politicians-tracker/issues"
 Documentation = "https://github.com/yourusername/karnataka-politicians-tracker#readme"
 
 [tool.setuptools]
-packages = ["politicians_tracker", "politicians_tracker.apps.core"]
+packages = ["politicians_tracker", "apps", "apps.core"]
 
 [tool.black]
 line-length = 120

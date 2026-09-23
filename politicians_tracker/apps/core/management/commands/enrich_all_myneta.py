@@ -398,7 +398,9 @@ class Command(BaseCommand):
                 'total_assets': data['assets'],
                 'total_liabilities': data['liabilities'],
                 'declaration_url': myneta_url,
-                'is_verified': True,
+                'is_verified': False,
+                'verification_status': 'scraped',
+                'source_organization': 'MyNeta / ADR',
             }
         )
 

@@ -5,7 +5,7 @@ import { getDictionary, Locale } from '../../../lib/dictionary';
 import { fetchDistricts, fetchParties, PoliticianSummary } from '../../../lib/api';
 import PoliticianAvatar from '../../../components/PoliticianAvatar';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
+const API_BASE_URL = process.env.INTERNAL_API_URL || process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://politicianstracker.in';
 
 export async function generateMetadata({
